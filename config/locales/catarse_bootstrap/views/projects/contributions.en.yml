@@ -1,0 +1,160 @@
+en:
+  projects:
+    contributions:
+      no_account_refund:
+        fill_form_text:  " You have% {amount} in pending reimbursements of unfunded projects. "
+      no_estimate:  " Not available "
+      you_selected:  " You chose this! "
+      contribute_text:
+        credits_tab:  My credits
+      Check-out:
+        no_credits:  You do not have enough credits to perform this support.
+        success:  Their support was successful. Thank you very much!
+      contribution:
+        anonymous_contribution:  Sketchpad Anonymous
+        anonymous_description:  You've opted to remain incognito
+        no_reward:  This supporter not selected any reward
+      selected_reward:
+        review_without_reward_html:  You will support with <strong>% {value} </ strong>
+          and do not want any reward for their support.
+        value:  ' support value '
+        reward:  ' selected Reward '
+        edit:  ' Edit '
+      existing_payment:
+        page_title:  ' Your support for% {name} has been done '
+        warning:  ' Warning '
+        warning_subtitle:  ' You are trying to access a reference to a support already started address: '
+        check_email:  " Check your inbox to the provisional receipt of support was sent If not, please% {mail_to_link} us, informing the identifier code of your support (% {gateway_id}), which will help you on. whatever it takes. "
+        new_contribution:  " If you have accessed this page in error, and want to make a new backup,% {link} "
+        contact:  ' contact '
+        CLICK_HERE:  ' click here '
+      faq:
+        flexible:
+          explanation:  ' This project will keep all the resources when finished '
+          common_questions:  ' Frequently Asked Questions '
+          how_contribute:  ' How do I support this project? '
+          how_contribute_answer:  ' Fill in the details of your support and all your payment information to complete support '
+          when_made_payment:  ' When the payment is effected? '
+          when_made_payment_answer:  ' If you paid by credit card, confirmation should be on the same day. If it was to slip in up to 4 working days.   '
+          when_about_my_payment_data:  ' What else can see my support? '
+          when_about_my_payment_data_answer:  " The project will be added to your support history profile, but the amount you supported and the reward you choose, you will not be public. '
+          when_project_owner:  ' Who is responsible for the project? '
+          when_project_owner_answer:  ' The catharsis is only an intermediary, if you want to understand more about the project, contact the% {name} '
+          when_project_funded:  ' How do I get my reward? '
+          when_project_funded_answer:  ' When your reward is ready,% {name} will contact you to arrange delivery. '
+        all_or_nothing:
+          explanation:  ' If this project does not reach the goal, you get back 100% of that paid through a refund. '
+          common_questions:  ' Frequently Asked Questions '
+          how_contribute:  ' How do I support this project? '
+          how_contribute_answer:  ' Fill in the details of your support and all your payment information to complete support '
+          when_made_payment:  ' When the payment is effected? '
+          when_made_payment_answer:  ' If you paid by credit card, confirmation should be on the same day. If it was to slip in up to 4 working days. '
+          when_about_my_payment_data:  ' What else can see my support? '
+          when_about_my_payment_data_answer:  " The project will be added to your support history profile, but the amount you supported and the reward you choose, you will not be public. '
+          when_project_fails:  ' And if the project does not reach the goal? '
+          when_project_fails_answer:  ' In this case, you get back 100% of that paid through a refund. '
+          when_project_funded:  ' If the project is funded, how do I get my reward? '
+          when_project_funded_answer:  ' When your reward is ready,% {name} will contact you to arrange delivery. '
+      edit:
+        review_slip_email:  " You will also receive an email with this ticket. "
+        slip_expiration:  " This bank payment expires on% {date}. "
+        print_slip:  ' Print Billet '
+        Pay:  ' Finish payment '
+        slip_message:  ' When generating the billet, the director is already counting on your support. Pay by the due date on the internet, lottery, ATM or bank branch. '
+        review_title:  ' Complete and review the data for payment '
+        review_subtitle:  ' These data will be reported to the project director '
+        delivery_address:  ' Address '
+        next_step:  ' Next Step '
+        payment_slip_disclaimer:  " If the project is not successful, we will refund your support informed the bank details here will be used for this.. "
+        review_errors_title:  " Check the reported data "
+        review_errors:  " Some information is missing or not reported correctly, correct all the fields marked in red and tesnte again "
+        anonymous_confirmation_title:  " Are you sure you want your support to be anonymous? "
+        anonymous_confirmation:  " Choosing this option your support will not be public for other users Catharsis Just you and the Project Director will have access to your support information.. "
+        anonymous_contribution:  " I want my support is not public "
+        form_labels:
+          user_another_card:  " Use another credit card "
+          payment_card_number:  ' card number '
+          payment_card_flag:  ' Flag '
+          payment_card_source:  ' Code. security '
+          payment_card_source_short:  ' CVC '
+          payment_card_date:  ' Expiration (mm / yyyy) '
+          payment_card_name:  ' printed name on the credit card '
+          payment_card_installments:  ' plots '
+        installment_with_tax:  ' no interest '
+        transaction_error:  ' Transaction denied, please recheck your data or contact the bank / card issuer for more information. '
+        pagarme_warning_html:  " The Catharsis is in testing phase of a new means of payment that facilitate financial support and the possible reimbursement of the amounts to supporters Thus, caution that additional data may be required in addition to those mentioned in the Terms of Use for support. this project. If any difficulties, please contact us by email at % {mailto}. Thank you. "
+        payment_save_card:  ' I want to save my credit card to facilitate future support. '
+        reward_sold_out:  This reward is exhausted. Start a new support.
+        page-title:  Support the% {name}
+        credits_preview_html:  " You have <strong>% {credits} </ strong> in credits to make this support <strong> until 10/11 </ strong> as <a href = 'http: //blog.catarse. I / simplification-of-refund-and-end-of-credits / 'target =' __ blank "> new rules </a> released by Catharsis. "
+        credits_submit:  ' Make Payment '
+        credits_title:  ' Pay with credits '
+        insufficient_credits:  " You have% {credits} in credits This amount is not enough to make support, please choose other means of payment.. "
+        choose_payment:  " Choose the method of payment "
+        choose_payment_subtitle:  " INSURANCE PAYMENT "
+        cpf:  ' To continue, please enter: '
+        credits_notice_html:  This will be paid for their claims. After confirmation,
+          you will have a balance of <strong>% {credits} </ strong> in credits for
+          support other projects.
+        live_in_brazil:  I live in Brazil. (Uncheck if your support is international
+          )
+        number_card:  Card Data
+        owner_card:  Cardholder Data
+        payment_account:  Payment by Debit Account
+        payment_boleto:  Payment with Boleto
+        payment_card:  Payment by card
+        review_with_reward_html:  ' You will support with <strong>% {value} </ strong>
+          earn the following reward: '
+        select_account:  ' You will be redirected to your bank's website: '
+        select_boleto:  ' To continue, please select: '
+        submit:
+          credits:  Confirm
+          MoIP:  Make payment by MoIP
+        subtitle:  These data will be reported to the project organizer.
+        title:  Complete and review the data for payment
+        you_are_about_html:  You are about to join the group that does everything
+          for% {link} happen.
+      new:
+        no_rewards:
+          LABEL_TITLE:  ' its support value '
+          label_description:  ' You can support this project from R $ 10 '
+          label_btn:  ' Continue '
+          label_error:  ' The amount of support is incorrect '
+        page-title:  Support the% {name}
+        title:  Oohh yeah!
+        you_have_credits:  " You have <strong>% {credits} </ strong> in credits to make this support. "
+        choose_reward:  Choose the reward and then the value of support
+        choose_value:  Enter the amount of your support.
+        minimum_disclaimer:  ' From R $ <span id = "minimum-value"> 10 </ span> is great;) '
+        next_step:  " Review and perform payment "
+        no_reward:  Thank you. I just want to help the project.
+      review:
+        PayPal:  " PayPal "
+        MoIP:  " MoIP "
+        Credits:  ' credits '
+        error:  Whoops. An error occurred while registering their support. Please try again.
+      thank_you_slip:
+        thank_you:  ' I'm counting on your support ... '
+        thank_you_text_html:  ' You also received this ticket in the email:% {email} '
+      thank_you:
+        thank_you:  ' Thanks! '
+        thank_you_text_html:  ' You just take an important step in the campaign to get the% {link1} paper! Send payment confirmation by email once it is processed. You can also track the status of support% {link2}. '
+        share:  Share
+        tweet:  Tuite
+        share_back:  ' Share your support and increase the chances of the project hit the target! '
+        follow:  ' Follow '
+        follow_category:  ' Curte% category {category}? You can get first hand and directly to your email when new projects come in the air! '
+        project_recommendations:  ' projects recommended for you '
+        PROFILE_LINK:  ' through your profile '
+      show:
+        header_subtitle:  Without you maybe this project did not have a chance. Welcome
+          the team!
+        header_title:  Thank you! : D
+        moip_message:  Check your transaction is in progress and the code
+          MoIP is "% {code}." <br> If you have any questions regarding the transaction, please
+          contact MoIP. An email will be sent when the payment is confirmed.
+        recommended_projects:  ' You can also enjoy these projects: '
+        text_subtitle:  Tell everyone what you just did
+        text_title_html:  You are now part of the group that does everything to the project% {link}
+          to happen.
+        title:  Thank you

@@ -7,3 +7,14 @@ pt:
       amount: Você está realizando uma doação de %{amount}.
       info1: Seu dinheiro será utilizado para financiar operações do Catarse e um monte de inovações que vem por aí em 2016.
       info2: E claro, você terá destaque em uma página especial, que lançaremos em breve, com a lista de apoiadores que fazem de tudo para espalhar o financiamento coletivo no Brasil!
+
+en:
+  donations:
+    confirm:
+      'yes':  Yes
+      'no':  No
+      title:  Confirm your donation to Catharsis?
+      amount:  You are making a donation% {amount}.
+      info1:  Your money will be used to finance the operations Catharsis and a lot of innovations that comes around in 2016.
+      info2:  Of course, you will have featured on a special page, which will launch soon with the list of supporters who do everything to spread the crowdfunding in Brazil!
+

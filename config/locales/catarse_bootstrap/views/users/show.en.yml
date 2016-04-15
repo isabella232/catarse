@@ -1,0 +1,137 @@
+en:
+  users:
+    balance:
+      debit:  ' Exit '
+      credit:  ' Entry '
+      totals:  ' Balance '
+      withdraw:  " Withdraw money "
+      withdraw_cta:  ' $ Hold Serve '
+      success_message:  ' Your service has been successfully requested. Within 10 working days your money will be in your bank account! '
+      bank:
+        account:  " Account: "
+        name:  ' Name / Company Name: '
+        cpf_cnpj:  ' CPF / CNPJ: '
+        bank_name:  ' Bank: '
+        agency:  ' Agency '
+    profile:
+      user_since:  " come together in% {date} "
+      no_project_contribution:  " Not yet supported projects "
+      single_project_contribution:  " I supported 1 project "
+      multiple_project_contribution:  "put {%} n_projects projects "
+      single_project_created:  " and has created one project "
+      multiple_project_created:  " and has created% {} n_projects projects "
+    contribution_row:
+      anonymous:  I want my support is not public
+      print_slip:  Print billet
+      slip_copy:  Generate second via
+      contributed_projects:  " Projects supported "
+      contribution_value:  " support amount "
+      contribution_status:  " support status "
+      request_refund:  ' Request refund '
+      reward:  Reward
+      no_reward:  " You have not selected reward "
+      delivery_estimate:  " Delivery Estimates: "
+    card:
+      twitter_profile:  " Profile on Twitter "
+      facebook_profile:  " Facebook Profile "
+      author_website:  " Site "
+      contact_author:  " Send Message "
+    failed_reactivation:  " The link to reactivation is invalid, please contact our team. "
+    reactivated:  " Welcome back, your account has been reactivated. "
+    project:
+      confirmed:  " Confirmed "
+      refunded:  " Refunded "
+      requested_refund:  " Reimbursement requested "
+      waiting_confirmation:  " Waiting for confirmation "
+      tell_about_this_contribution:  Tell the world about your support!
+    credit_cards:
+      index:
+        LAST_DIGITS:  ' Card '
+        brand:  ' Operator '
+        title:  ' Credit Cards '
+        remove:  ' Remove '
+    credits:
+      modal:
+        title:  ' You really want to request a refund of your support? '
+        text:  " Learn how the refund process Catharsis: "
+        link:  " Rules and Functioning of refunds / chargebacks "
+        reject_btn:  " No, I keep my credits "
+        accept_btn:  " Yes, I request a refund of my support "
+      index:
+        contribution_date:  " Support Data "
+        current_credits_html:  " Your current balance is <span id = \" current_credits \ " >% {credits} </ span> in credits. "
+        important_html:  " For all refund rules of operation, <a target = '_ blank'> click here </a>. Any questions, please visit our <a href='http://suporte.catarse.me' target='_blank'> </a> support. "
+        project:  Project
+        refunded:  " . confirmed request will contact you within 4 business days. "
+        insufficient_credits:  " You do not have enough credits to perform this reversal. "
+        refunds_title:  " Support that can be done chargeback "
+        request_refund:  " Request chargeback "
+        requested_refund:  " Requested chargeback "
+        Status:  Status
+        title:  " My credits "
+        value:  Value
+      refund:
+        cannot_refund:  " This support can not be reversed. "
+        error:  " . Oops Error request your refund. "
+        no_credits:  " You do not have enough credits to perform this reversal. "
+        refunded:  " This support has been reversed. "
+        requested_refund:  " You already asked chargeback for this support. "
+      title:  " My credits "
+    current_user_fields:
+      bank_account_title:  " Bank details "
+      bank_account_hint:  " Your bank data will be used to make full repayment of its support if the project does not reach 100% of the target. "
+      my_facebook:  ' Integration with facebook '
+      bio_limit:  ' up to 140 characters '
+      updated:  " Your information has been updated "
+      update_social_info:  " Update information "
+      social_info:  " Contact Information "
+      twitter:  " twitter (user) "
+      facebook_link:  " facebook profile (full link) "
+      other_link:  " link on its website "
+      change_password:  " Change my password "
+      current_password_hint:  " <i> For the password is changed you need to confirm your current password </ i>. "
+      email_hint:  " .. Your email is used for sending communications of Catharsis and projects you support only He will not be visible on your profile When you support a project, we will give your email to the project owner so he can arrange the rewards. "
+      email_tooltip:  " Click here to fill in your email ... "
+      gravatar_hint_html:  " . You can also change your photo using the% {link} with your email <br> It is as simple as sending an image and already works for other sites as well;) "
+      local_avatar:  " My avatar "
+      submit_text:  " Choose your image "
+      submit:  " Send "
+      my_data:  " My Data "
+      newsletter:  " I want to receive news from Catharsis by email "
+      password_hint:  " <i> Leave blank if you do not want to change your password </ i>. "
+      Deactivation:  " Deactivate my account "
+      deactivate_notice:  " The account% {name} has been disabled. "
+      deactivate_confirm:  " You want to disable this account? "
+      deactivate_hint:  " All your backups will be converted in anonymous support, your data will not be visible, you will automatically exit the system and your account will be permanently disabled. "
+    unsubscribes:
+      projects_in_reminder:  " Projects with active reminder: "
+      title:  " Choosing which projects you want to receive notifications: "
+      posts:  " I want to receive updates of the projects "
+    show:
+      projects:
+        here:  ' here '
+        no_projects:  " % {name} has not started any project on Catharsis Does the inspiration will hit one of these.? "
+        no_projects_current_user_html:  " You have not started any project on Catharsis Let the inspiration hit and click% {link} to start.! "
+        title:  " % {name} Projects "
+        title_current_user:  " My Projects "
+      contributions:
+        anonymous:  " anonymous support. "
+        no_contributions:  " % {name} not backed any project yet but we know it's only a matter of time:.! D "
+        no_contributions_current_user_html:  " You have not backed any project How about <a href= \" / \">. start now </a>? "
+        no_reward:  " You have not selected any reward "
+        title:  " Projects% {name} has supported "
+        title_current_user:  " Projects that have supported "
+        your_reward:  " Your reward "
+      attention:  " Warning "
+      tabs:
+        credit_cards:  ' Credit Cards '
+        contributed_projects:  " Projects supported "
+        created_projects:  " Projects created "
+        comments:  Comments
+        credits:  Credits
+        settings:  Preferences
+        unsubscribes:  Notifications
+      user_social:
+        email:  " Send me an email "
+        facebook:  " Profile on facebook "
+        twitter:  " Profile on twitter "

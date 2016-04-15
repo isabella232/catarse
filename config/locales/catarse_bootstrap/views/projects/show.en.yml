@@ -1,0 +1,125 @@
+en:
+  projects:
+    about_mobile:
+      by:  ' by '
+      back:  ' <Back '
+    project_embed:
+      insert:  ' Insert a widget on your site '
+    mobile_video:
+      READ_MORE:  " Read More "
+    metrics:
+      titles:
+        confirmed_by_day:  ' Total support confirmed by day '
+        confirmed_amount_by_day:  ' Total raised by day '
+        address_state:  ' Total support confirmed by State '
+    reminder:
+      ok:  ' Okay! We will send you a reminder email 48 hours before the end of the campaign '
+      active_btn:  ' Remember me this project '
+      deactive_btn:  ' I do not want to be remembered '
+    announce_expiration:  ' His plan was to stretch. '
+    announce_expiration_error:  ' Final stretch has already been set! '
+    send_to_analysis:  Your project has been sent to our team.
+    send_to_analysis_error:  Error sending project for analysis. Fill in all required fields.
+    push_to_online:  Your project is online!
+    push_to_online_error:  Error while placing the online project. Fill in all required fields.
+    twitter:
+      take_a_look:  Check the project% {name} in @catarse
+    video_embed:
+      a_project_by_html:  A project% {link} in
+    posts:
+      project_post:
+        exclusive:  ' Exclusive Post to supporters. '
+        unavailable:  This news is only available to supporters.
+        Contribute  Support
+        unavailable_contribute:  this project to view it.
+        destroy:  Remove New
+        destroy_confirmation:  Do you want to remove this news?
+      new:
+        notice:  New successfully sent!
+        comment:  Text of your New
+        exclusive:  Only visible to supporters
+        submit:  Send New
+        title:  Title of your New
+        warning:  Remember that every post novelty goes directly to the email
+          his supporters. So well review your text before sending - it.
+    project_reports:
+      all_contributions_without_reward:  Download report all supporters
+        not selected a reward
+      link_reports_confirmed:  Download report all confirmed supporters
+      link_reports_waiting_confirmation:  Download report all supporters
+        with printed ticket
+      link_reward:  Download the report% reward supporters {value}
+    project_about:
+      embed:  <embed>
+      embed_title:  Embed this design on your website
+      active_btn:  ' Remember me '
+      deactive_btn:  ' active Reminder '
+    show:
+      menu:
+        panel_html:  " & nbsp; & nbsp; Control Panel "
+        about:  About
+        add_reward:  Add reward
+        comments:  Comments
+        contributions:  Support
+        Metrics:  Metrics
+        edit:  Editing
+        Reports:  Reports
+        Posts:  News
+    project_sidebar:
+      contributors_call:  ' supported by '
+      contributors_count:
+        one:  ' one person '
+        other:  " {{count}} people '
+      REMAINING_TIME:
+        days:
+          one:  ' rest day '
+          other:  ' days remaining '
+        hours:
+          one:  ' rest time '
+          other:  ' remaining hours '
+        minutes:
+          one:  ' remaining minute '
+          other:  ' remaining minutes '
+        seconds:
+          one:  ' seconds remaining '
+          other:  ' seconds remaining '
+      submit:  Support this project
+      display_status:
+        approved:  " This project has been approved by Catharsis Soon it will air and be ready to receive support.. "
+        online:  " You can support this project until% {date} to 23h59m59s "
+        failed:  " This project has not reached the minimum goal {%} to% {date} and was not financed "
+        rejected:  " This project was not accepted You can not perform a backup.. "
+        in_analysis:  " This project is under review and is not yet open to receive support. "
+        success:  " This project was successful and was funded in% {date} "
+        waiting_funds:  " The term funding of this project is closed We are awaiting confirmation of the last payment.. "
+        draft:  " This project is just a draft and can not receive support. "
+      submit:  Support this project
+    project_main:
+      post_call:  ' Every news published in Catharsis is sent directly to the e-mail who has supported his project and is also available for viewing on the website. You can choose to leave it public, or visible only to his supporters here in this tab. '
+      send_post:  ' Write news '
+      share:  " Share "
+      tweet:  " Tweet "
+      project_by:  design by
+      funding_period:  Campaign Period
+      project_header:
+        subtitle_html:  " A project% {link} "
+        without_city:  " A project "
+        with_city:  " A% {project} category_name by% {author} in% {city} "
+      menu:
+        about:  About
+        add_reward:  Add reward
+        comments:  Comments
+        contributions:  Support
+        Metrics:  Metrics
+        edit:  Editing
+        Reports:  Reports
+        Posts:  News
+      no_rewards_warning:  Do not travel! Think of how you will deliver them and put everything
+        this budget. Prometheus?! FOLLOW! : D
+      no_rewards_warning_title:  Create here your rewards
+      contribution_states:
+        confirmed:  " Confirmed "
+        pending:  " Pending "
+      sidebar:
+        contributions:  support
+        goal:  hit of% {Total}
