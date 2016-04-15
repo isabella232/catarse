@@ -7,36 +7,22 @@ en:
         minimum_value:  This is minimum support value to choose this reward.
         days_to_delivery:  Enter how many days, after the success of the project, you plan to give this reward
       contribution:
-        credits:  You have <strong>% {credits} </ strong> in credits and can support
-          to this value without performing a new payment.
+        credits:  "You have <strong>%{credits} </strong> in credits and can support to this value without performing a new payment."
       project:
-        about:  Tell us a little about your inspiration to undertake the project, its
-          history and what will be delivered to the end. Be succinct and escape those formalities
-          notices. Nothing OBJECTIVE, RATIONALE, PUBLIC - TARGET ... Treat
-          your readers with something that moves with them and be very transparent about
-          the expectation of the project.
-        category:  Before sending your design, explore and be inspired by other projects
-          who visited the site.
-        first_contributions:  For your campaign to succeed, it is essential to bring
-          Contact your nearest network. So, list here who you believe
-          which will be his first 20 supporters
+        about:  "Tell us a little about your inspiration to undertake the project, its history and what will be delivered to the end. Be succinct and escape those formalities notices. Nothing OBJECTIVE, RATIONALE, PUBLIC - TARGET ... Treat your readers with something that moves with them and be very transparent about the expectation of the project."
+        category:  Before sending your design, explore and be inspired by other projects who visited the site.
+        first_contributions:  For your campaign to succeed, it is essential to bring Contact your nearest network. So, list here who you believe which will be his first 20 supporters
         goal:  " It is important to remember that much of the support will come from people nearby
           you (1st and 2nd level of relationship): <a href = 'http: //blog.catarse.me/sua-campanha-no-catarse-precisa-de-um-empurrazinho'
           target = '_ blank'> Click here! </a> Thus, to set the value you want
           raise through Catharsis is critical thinking in their ability to mobilize
           at least 50% of the value within your network of contacts. "
-        headline:  Summarize in 140 characters your project. This phrase will be the first
-          contact of people with your project, even before seeing the video. Be
-          creative, transparent and direct :)
-        more_links:  What will be the mobilization channels used? (Put links
-          like Facebook, Twitter, Blogs ... all that will help you release your
-          project)
-        name:  The more direct the better. Leave to describe your project in About
-          and Video.
+        headline:  Summarize in 140 characters your project. This phrase will be the first contact of people with your project, even before seeing the video. Be creative, transparent and direct :)
+        more_links:  What will be the mobilization channels used? (Put links like Facebook, Twitter, Blogs ... all that will help you release your project)
+        name:  The more direct the better. Leave to describe your project in About and Video.
         online_days:  On average the projects are in the air for 40 days.
         uploaded_image:  Here you upload an image (.jpg) with size 512x400.
-        video_url:  The video is the main part of the project. If you have not, do not
-          You need to send ... But go already thinking about how to make a MATADOR video!
+        video_url:  The video is the main part of the project. If you have not, do not You need to send ... But go already thinking about how to make a MATADOR video!
         video_url_edit:  Paste here the link of your video hosted on Vimeo or Youtube.
     labels:
       reward:
@@ -59,4 +45,3 @@ en:
         more_links:  Links list related to your project *
         name:  Project name *
         video_url:  Video
-

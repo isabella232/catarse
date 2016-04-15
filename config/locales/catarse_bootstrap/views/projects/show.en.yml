@@ -2,7 +2,7 @@ en:
   projects:
     about_mobile:
       by:  ' by '
-      back:  ' <Back '
+      back:  ' Back '
     project_embed:
       insert:  ' Insert a widget on your site '
     mobile_video:
@@ -23,14 +23,13 @@ en:
     push_to_online:  Your project is online!
     push_to_online_error:  Error while placing the online project. Fill in all required fields.
     twitter:
-      take_a_look:  Check the project% {name} in @catarse
+      take_a_look:  Check the project %{name} in @catarse
     video_embed:
-      a_project_by_html:  A project% {link} in
+      a_project_by_html:  A project %{link} in
     posts:
       project_post:
         exclusive:  ' Exclusive Post to supporters. '
-        unavailable:  This news is only available to supporters.
-        Contribute  Support
+        unavailable:  This news is only available to supporters. Contribute  Support
         unavailable_contribute:  this project to view it.
         destroy:  Remove New
         destroy_confirmation:  Do you want to remove this news?
@@ -40,14 +39,11 @@ en:
         exclusive:  Only visible to supporters
         submit:  Send New
         title:  Title of your New
-        warning:  Remember that every post novelty goes directly to the email
-          his supporters. So well review your text before sending - it.
+        warning:  Remember that every post novelty goes directly to the email his supporters. So well review your text before sending - it.
     project_reports:
-      all_contributions_without_reward:  Download report all supporters
-        not selected a reward
+      all_contributions_without_reward:  Download report all supporters not selected a reward
       link_reports_confirmed:  Download report all confirmed supporters
-      link_reports_waiting_confirmation:  Download report all supporters
-        with printed ticket
+      link_reports_waiting_confirmation:  Download report all supporters with printed ticket
       link_reward:  Download the report% reward supporters {value}
     project_about:
       embed:  <embed>
@@ -69,7 +65,7 @@ en:
       contributors_call:  ' supported by '
       contributors_count:
         one:  ' one person '
-        other:  " {{count}} people '
+        other:  " {{count}} people "
       REMAINING_TIME:
         days:
           one:  ' rest day '
@@ -86,11 +82,11 @@ en:
       submit:  Support this project
       display_status:
         approved:  " This project has been approved by Catharsis Soon it will air and be ready to receive support.. "
-        online:  " You can support this project until% {date} to 23h59m59s "
-        failed:  " This project has not reached the minimum goal {%} to% {date} and was not financed "
+        online:  " You can support this project until %{date} to 23h59m59s "
+        failed:  " This project has not reached the minimum goal {%} to %{date} and was not financed "
         rejected:  " This project was not accepted You can not perform a backup.. "
         in_analysis:  " This project is under review and is not yet open to receive support. "
-        success:  " This project was successful and was funded in% {date} "
+        success:  " This project was successful and was funded in %{date} "
         waiting_funds:  " The term funding of this project is closed We are awaiting confirmation of the last payment.. "
         draft:  " This project is just a draft and can not receive support. "
       submit:  Support this project
@@ -102,9 +98,9 @@ en:
       project_by:  design by
       funding_period:  Campaign Period
       project_header:
-        subtitle_html:  " A project% {link} "
+        subtitle_html:  " A project %{link} "
         without_city:  " A project "
-        with_city:  " A% {project} category_name by% {author} in% {city} "
+        with_city:  " A %{project} category_name by %{author} in %{city} "
       menu:
         about:  About
         add_reward:  Add reward
@@ -122,4 +118,4 @@ en:
         pending:  " Pending "
       sidebar:
         contributions:  support
-        goal:  hit of% {Total}
+        goal:  "hit of %{Total}"

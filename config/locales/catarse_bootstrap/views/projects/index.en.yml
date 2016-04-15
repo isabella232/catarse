@@ -1,9 +1,9 @@
 en:
   projects:
     index_header:
-      subtitle:  Finance projects collaboratively and become part of something
-        larger. Promote a collective catharsis! You're the missing piece in this story.
-      title:  Make it happen the projects you believe
+      subtitle:  "Finance projects collaboratively and become part of something
+        larger. Promote a collective catharsis! You're the missing piece in this story."
+      title:  "Make it happen the projects you believe"
     index:
       title:  ' Catharsis '
       back_a_project:  ' Support a project '
@@ -68,4 +68,3 @@ en:
           title:  " Recent "
         channels:
           title:  ' Channel Wings '
-
