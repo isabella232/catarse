@@ -1,0 +1,14 @@
+app:
+  build: .
+  # command: /sbin/my_init --enable-insecure-key
+  volumes:
+   - .:/app
+  ports:
+    - "80:5000"
+  environment:
+    - RAILS_ENV=production
+    - RACK_ENV=production
+    - DATABASE_URL
+    - REDIS_URL
+    - PUBLISHABLE_KEY
+    - SECRET_KEY

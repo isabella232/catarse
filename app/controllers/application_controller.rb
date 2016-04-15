@@ -4,11 +4,6 @@ class ApplicationController < ActionController::Base
   include Concerns::SocialHelpersHandler
   include Concerns::AnalyticsHelpersHandler
   include Pundit
-  if Rails.env.production?
-    require "new_relic/agent/instrumentation/rails3/action_controller"
-    include NewRelic::Agent::Instrumentation::ControllerInstrumentation
-    include NewRelic::Agent::Instrumentation::Rails3::ActionController
-  end
 
   acts_as_token_authentication_handler_for User, fallback: :none
   layout 'catarse_bootstrap'

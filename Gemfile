@@ -88,23 +88,15 @@ gem 'typhoeus'
 gem 'http_accept_language'
 gem 'routing-filter', '~> 0.4.0.pre'
 
+gem 'puma'
+
 group :production do
   # Gem used to handle image uploading
   gem 'fog-aws'
 
-  # Workers, forks and all that jazz
-  gem 'unicorn'
-
-  # Enabling Gzip on Heroku
-  # If you don't use Heroku, please comment the line below.
-  gem 'heroku-deflater', '>= 0.4.1'
-
   # Make heroku serve static assets and loggin with stdout
   #gem 'rails_on_heroku'
   gem 'rails_12factor'
-
-  # Monitoring with the new new relic
-  gem 'newrelic_rpm'
 
   # Using dalli and memcachier have not presented significative performance gains
   # Probably this is due to our pattern of cache usage
