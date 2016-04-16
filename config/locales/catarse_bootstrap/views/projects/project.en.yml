@@ -4,11 +4,11 @@ en:
       row_title: 'Popluar'
       banners:
         1:
-          title: 'Finance your project'
-          subtitle: 'Start your fundraising campaign and join the largest crowdfunding community in Brazil'
+          title: "The New Q's"
+          subtitle: 'A compact, powerful Bluetooth sound system with a hand crafted, solid wood cabinet – perfect for iPhone and iPad.'
           link: '/start?ref=home_banner'
           cta: 'Learn More'
-          image: 'https://s3.amazonaws.com/cdn.catarse/assets/banner-home-start.jpg'
+          image: 'http://startio-staging.s3.amazonaws.com/cdn/image_hero.png'
         2:
           title: 'Chaguim Ledor Vador'
           subtitle: 'Jewish stories told by children and for children.'
