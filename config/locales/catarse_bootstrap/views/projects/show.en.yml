@@ -28,7 +28,7 @@ en:
       a_project_by_html:  A project %{link} in
     posts:
       project_post:
-        exclusive:  ' Exclusive Post to supporters. '
+        exclusive:  'Exclusive Post to supporters.'
         unavailable:  This news is only available to supporters.
         unavailable_contribute:  this project to view it.
         destroy:  Remove New
