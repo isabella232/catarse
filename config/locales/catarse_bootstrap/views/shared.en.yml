@@ -1,34 +1,36 @@
 en:
   shared:
-    account_type_value: 'Só aceitamos conta corrente'
-    no_bank_label: 'Outro'
+    account_type_value: ' Only we accept checking account'
+    no_bank_label: 'Other'
     alerts:
-      pending_payment_text: "Você tem reembolsos pendentes no Catarse."
-      pending_payment_link_text: "Decida o que fazer com seu dinheiro aqui!"
-    load_more: "Carregar mais"
-    terms: termos de uso
-    accept_terms_html: Eu li e estou de acordo com os %{link}.
+      pending_payment_text: "You have hanging refunds in Purgation."
+      pending_payment_link_text: "Decide on what to do with his money here!"
+    load_more: "Load More"
+    terms: user terms
+    accept_terms_html: I read and I agree with the %{link}.
     header_channel:
-      contact: Contato
-      logout: Sair
-      my_credits: Meus créditos
-      partners: Parceiros
-      posts: Novidades
-      profile: Meu perfil
+      contact: Contact
+      logout: Logout
+      my_credits: My credits
+      partners: Partners
+      posts: News
+      proseize: Profile
       signin: Login
-      signup: Cadastre-se
-      submit: Enviar projeto
-      how_work: Como funciona
+      signup: Sign up
+      submit: Submit
+      how_work: How it works
     footer_channel:
-      contact: Contato
-      how_works: Como funciona
-      privacy_policy: Política de privacidade
-      terms: Termos de uso
-      what_is_channel: O que são canais?
-      terms: "Termos de uso"
-      privacy_policy: "Política de Privacidade"
-      how_it_works: "Como funciona o %{name}"
-      how_channels_work: "Entenda os Canais no Catarse"
-      contact: "Contato"
+      contact: Contact Me
+      how_works: Since it works
+      privacy_policy: Privacy politics
+      terms: Use terms
+      what_is_channel: What channels are?
+      terms: "Terms of use"
+      privacy_policy: "Privacy Policy"
+      how_it_works: "How it works %{name}"
+      how_channels_work: How channels work
+      contact: Contact
     header_big:
-      projects: "Meus Projetos"
+      projects: "My projects"
+
+ed:

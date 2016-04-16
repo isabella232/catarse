@@ -40,11 +40,11 @@ pt:
       project:
         category: "Selecione uma categoria"
         select: "Selecione uma opção"
-        traffic_sources: "Como você conheceu o Catarse?"
+        traffic_sources: "How did you hear about Startio"
     hints:
       project:
         select: "Selecione uma opção"
-        traffic_sources: "Como você conheceu o Catarse?"
+        traffic_sources: "How did you hear about Startio?"
         name: "Dê um nome que as pessoas se lembrem facilmente. Não ultrapasse 50 caracteres."
         all_tags: "Informe tags separadas por vírgula"
         permalink: "Você pode editá-lo até o projeto ir ao ar. Prefira algo simples, direto e que identifique bem seu projeto. Tente não usar hífen, underline etc."
