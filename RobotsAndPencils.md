@@ -23,10 +23,16 @@ This is likely a bad way of doing things, but for now we don't have a lot of opt
 Hosted on tumblr and hacked in.
 
 http://start-io.tumblr.com
-username:  postmaster@startio-staging.com
-password:  markiscool
+username:  ********************
+password:  *********************
 
 There's up to a 10 minute cache delay on new articles.
+
+## Other hacks.
+
+There are a couple of manual DB views/stored procs that return the PT name instead of the EN name.
+Manually fixed that on the staging DB.
+
 
 ## DEPLOYING TO CONVOX
 First we build the apps.
