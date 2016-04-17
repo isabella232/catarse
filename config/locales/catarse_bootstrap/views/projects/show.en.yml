@@ -69,7 +69,7 @@ en:
       contributors_count:
         one:  ' one person '
         other:  " %{count} people "
-      REMAINING_TIME:
+      remaining_time:
         days:
           one:  ' rest day '
           other:  ' days remaining '
@@ -84,8 +84,8 @@ en:
           other:  ' seconds remaining '
       submit:  Support this project
       display_status:
-        approved:  " This project has been approved by Catharsis Soon it will air and be ready to receive support.. "
-        online:  " You can support this project until %{date} to 23h59m59s "
+        approved:  " This project has been approved by Startio Soon it will air and be ready to receive support.. "
+        online:  " You can support this project until %{date} at midnight "
         failed:  " This project has not reached the minimum goal %{goal} to %{date} and was not financed "
         rejected:  " This project was not accepted You can not perform a backup.. "
         in_analysis:  " This project is under review and is not yet open to receive support. "

@@ -91,11 +91,14 @@ en:
         other: ! '%{count} seconds'
     prompts:
       day: Day
+      days: Days
       hour: Hour
       minute: Minute
       month: Month
       second: Seconds
       year: Year
+      "days remaining": Days Left
+      "days_remaining": Days Left
   errors: &errors
     format: ! '%{attribute} %{message}'
     messages:
@@ -206,4 +209,3 @@ en:
   activerecord:
     errors:
       <<: *errors
-
