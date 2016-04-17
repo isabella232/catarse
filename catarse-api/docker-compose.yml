@@ -1,0 +1,14 @@
+app:
+  build: .
+  # command: /sbin/my_init --enable-insecure-key
+  volumes:
+   - .:/app
+  ports:
+    - "80:3000"
+  environment:
+    - POSTGREST_DBNAME=app
+    - POSTGREST_DBPASS=UBGDEVYIHHQFSIOKHYYOBBNRJJDHUG
+    - POSTGREST_DBUSER=postgres
+    - POSTGREST_DBHOST=convox-catarse-postgres.ccsnahvgsdvr.us-east-1.rds.amazonaws.com
+    - POSTGREST_DBPORT=5432
+    - POSTGREST_JWT_SECRET=artwagwiuef9t7325oaflgui8o7taartwagwiuef9t7325oaflgui8o7ta

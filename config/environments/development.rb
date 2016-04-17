@@ -24,6 +24,8 @@ Catarse::Application.configure do
   # Raise an error on page load if there are pending migrations
   config.active_record.migration_error = :page_load
 
+  config.i18n.fallbacks = false
+
   # Debug mode disables concatenation and preprocessing of assets.
   # This option may cause significant delays in view rendering with a large
   # number of complex assets.
@@ -34,4 +36,3 @@ Catarse::Application.configure do
 
   config.action_mailer.asset_host = "http://localhost:3000"
 end
-

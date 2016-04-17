@@ -1,17 +1,17 @@
-pt:
-  found_singular: Encontrado
-  found_plural: Encontrados
-  project_singular: projeto
-  project_plural: projetos
-  contribution_singular: apoiador
-  contribution_plural: apoiadores
-  remaining_singular: restante
-  remaining_plural: restantes
+en:
+  found_singular: Found
+  found_plural: Finds
+  project_singular: project
+  project_plural: projects
+  contribution_singular: contribution
+  contribution_plural: contributions
+  remaining_singular: remaining
+  remaining_plural: rremaining
   created_project:
-    zero: "ainda não criou projetos"
-    one: "%{count} projeto criado"
-    other: "%{count} projetos criados"
+    zero: "you haven't created any projects"
+    one: "%{count} project created"
+    other: "%{count} projects create"
   contributed_project:
-    zero: "ainda não apoiou projetos"
-    one: "apoiou %{count} projeto"
-    other: "apoiou %{count} projetos"
+    zero: "you haven't supported any projects"
+    one: "one project supported"
+    other: "you have supported %{count} projects"

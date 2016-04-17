@@ -13,7 +13,7 @@
     p.fontsize-base
       = truncate(feed.to_object.try(:comment), length: 310)
       = link_to 'Leia mais', project_by_slug_path(permalink: feed.from_object.try(:permalink), anchor: "posts/#{feed.to_object.try(:id)}"), class: 'alt-link'
-- elsif feed.is_common_owner?      
+- elsif feed.is_common_owner?
   .card.u-marginbottom-20.u-radius.card-terciary
     .w-row
       .w-col.w-col-7
@@ -27,7 +27,7 @@
       .w-col.w-col-5
         = render_projects [feed.to_object], 'new_project_from_common_owner'
 
-    
+
 - elsif feed.is_category_follower_project?
   .card.u-marginbottom-30.u-radius.card-terciary
     .w-row
@@ -36,9 +36,9 @@
           img.thumb.u-left.u-round alt="54c71591a77a2c8d1a194dc9_icon-catarse.jpg" src="http://uploads.webflow.com/54b440b85608e3f4389db387/54c71591a77a2c8d1a194dc9_icon-catarse.jpg" /
           .fontcolor-secondary.fontsize-smaller
             = l(feed.event_date, format: :simple)
-          .fontweight-semibold.fontsize-base 
+          .fontweight-semibold.fontsize-base
             | Categoria:&nbsp;
-            = feed.from_object.try(:category).try(:name_pt)
+            = feed.from_object.try(:category).try(:name_en)
         .fontsize-large.fontweight-semibold.u-marginbottom-20 Novo projeto no ar!
       .w-col.w-col-5
         = render_projects [feed.to_object], 'new_project_on_category'
@@ -74,4 +74,3 @@
           = link_to project_by_slug_path(permalink: feed.to_object.try(:permalink)), class: 'link-hidden fontweight-semibold' do
             = feed.to_object.try(:name)
           | finalizou mas não foi financiado
-        

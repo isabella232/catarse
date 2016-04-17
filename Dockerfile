@@ -9,6 +9,7 @@ RUN apt-get update --fix-missing
 RUN apt-get install -y build-essential
 RUN apt-get install -y nodejs
 RUN apt-get install -y imagemagick
+RUN apt-get install -y postgresql-contrib
 
 # Clean up APT when done.
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*

@@ -1,4 +1,4 @@
-= simple_form_for @user do |f| 
+= simple_form_for @user do |f|
     .w-container
       .w-row
         .w-col.w-col-10.w-col-push-1
@@ -25,7 +25,7 @@
                         = f.simple_fields_for :unsubscribes, @unsubscribes do |u|
                           li
                             .w-checkbox.w-clearfix
-                              = hidden_field_tag "unsubscribes[#{u.object.project.id}]", '' 
+                              = hidden_field_tag "unsubscribes[#{u.object.project.id}]", ''
                               - unsubscribe_id = "user_unsubscribes_#{u.object.project_id}"
                               = check_box_tag unsubscribe_id, "1", u.object.created_at.nil?, class: 'w-checkbox-input', name: "unsubscribes[#{u.object.project.id}]"
                               label.w-form-label.fontsize-small[for=unsubscribe_id] = u.object.project.name
@@ -37,8 +37,8 @@
                   - @user.category_followers.all.each do |category_follower|
                     .w-checkbox.w-clearfix
                       = check_box_tag "user[category_followers_attributes][][category_id]", category_follower.category.id, true, class: 'w-checkbox-input'
-                      = hidden_field_tag "anchor", 'notifications' 
-                      label.w-form-label.fontsize-small= category_follower.category.name_pt
+                      = hidden_field_tag "anchor", 'notifications'
+                      label.w-form-label.fontsize-small= category_follower.category.name_en
               .w-row.u-marginbottom-20
                 .w-col.w-col-4
                   .fontweight-semibold.fontsize-small.u-marginbottom-10 Lembretes de projetos:
@@ -54,6 +54,3 @@
           .w-row
             .w-col.w-col-4.w-col-push-4
               = f.submit 'Salvar',  id: 'save', class:'btn btn-large'
- 
-
-

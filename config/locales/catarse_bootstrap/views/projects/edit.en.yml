@@ -1,10 +1,10 @@
 en:
   projects:
     flex_nav_actions:
-      publish:  ' Post '
-      announce_expiration:  ' Set time '
+      publish:  ' Publish '
+      announce_expiration:  'Set expiry '
     aon_nav_actions:
-      publish:  ' Post '
+      publish:  'Publish'
       send:  ' Send '
     edit:
       flex:
@@ -27,7 +27,7 @@ en:
       card_subtitle:  ' You know that project cardzinho that appears on the home and search? Well then, it is beautiful because they say that the first impression is the one that is;) '
       basics:  ' Complete the information below '
       basics_subtitle:  ' The data reported in this section can not be modified when the project is in the air. Fill carefully and review before launching the project. '
-      goal:  ' Financing '
+      goal: Goal
       goal_subtitle:  ' Fill with affection the section below, because this information can not be changed if the project is in the air. '
       reports:  ' support Reports '
       user_settings:  ' registration and bank details '
@@ -119,7 +119,7 @@ en:
     dashboard_analysis_success:
       title:  "  %{name}, your project has been sent for analysis! "
       subtitle:  " You will receive our response within 4 working days in the email: "
-      next_steps:  " ! While waiting for your answer, you can continue editing your project also recommend that you go collecting feedback with people nearby and planning how will his campaign. "
+      next_steps:  "While waiting for your answer, you can continue editing your project also recommend that you go collecting feedback with people nearby and planning how will his campaign. "
     dashboard_nav:
       leave_link_html:  " &nbsp; Control Panel Exit "
       start_tab:  ' My Campaign '
@@ -135,7 +135,7 @@ en:
         preview_tab:  Preview
         account_tab:  Account
         basics_tab:  Basic
-        goal_tab:  Financing
+        goal_tab:  Goal
         budget_tab:  Budget
         card_tab:  Card design
         description_tab:  Description
@@ -146,7 +146,7 @@ en:
         preview_tab:  Preview
         account_tab:  Account
         basics_tab:  Basic
-        goal_tab:  Financing
+        goal_tab:  Goal
         budget_tab:  Budget
         card_tab:  Card design
         description_tab:  Description
@@ -225,7 +225,7 @@ en:
       city:  ' Project Location '
       online_date:  ' Date of the air '
       user_id:  ' User Id '
-      service_fee:  ' catharsis Fee '
+      service_fee:  'Service Fee '
       name:  ' Project Name '
       name_label:  ' The more direct the better. Do not exceed 50 characters '
       url:  ' URL of the project '

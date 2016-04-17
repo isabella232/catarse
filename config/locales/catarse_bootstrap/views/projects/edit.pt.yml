@@ -258,12 +258,12 @@ pt:
         href: '#confirm_account'
         icon: 'https://daks2k3a4ib2z.cloudfront.net/54b440b85608e3f4389db387/56c3508dbfc50aef5095c66a_finish-icon.png'
         title: 'Parabéns!'
-        text: 'Seu projeto foi finalizado com sucesso e você tem <span class="fontweight-semibold">R$ %{total_amount}</span> para receber (taxas já descontadas)! Para efetuarmos a transferência, precisamos que você nos confirme seus dados bancários.'
+        text: 'Seu projeto foi finalizado com sucesso e você tem <span class="fontweight-semibold">$ %{total_amount}</span> para receber (taxas já descontadas)! Para efetuarmos a transferência, precisamos que você nos confirme seus dados bancários.'
         cta: 'Confirmar dados bancários'
       pending_transfer:
         icon: 'https://daks2k3a4ib2z.cloudfront.net/54b440b85608e3f4389db387/56c350c5e7d136a016bc34a4_transfer-ok-icon.png'
         title: 'Transferência bancária em andamento'
-        text: 'Até o dia %{transfer_limit_date}, R$%{total_amount} (taxas já descontadas) estarão em sua conta Banco %{bank_name}, Agência: %{agency}, Conta: %{account}. Fique atento no email %{user_email}, pois nossa equipe pode entrar em contato com você se ocorrer algum problema com o banco!'
+        text: 'Até o dia %{transfer_limit_date}, $%{total_amount} (taxas já descontadas) estarão em sua conta Banco %{bank_name}, Agência: %{agency}, Conta: %{account}. Fique atento no email %{user_email}, pois nossa equipe pode entrar em contato com você se ocorrer algum problema com o banco!'
       error_account:
         icon: 'https://daks2k3a4ib2z.cloudfront.net/54b440b85608e3f4389db387/56c350fabfc50aef5095c67d_transfer-pending-icon.png'
         title: 'Transferência bancária pendente'

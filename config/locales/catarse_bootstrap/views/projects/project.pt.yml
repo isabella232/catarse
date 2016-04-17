@@ -94,7 +94,7 @@ pt:
         header:
           origin: 'Fonte'
           contributions: 'Apoios'
-          amount: 'R$ apoiados (% do total)'
+          amount: '$ apoiados (% do total)'
         help_url: 'http://suporte.catarse.me/hc/pt-br/articles/206452286-Como-entender-o-gr%C3%A1fico-Origem-de-Apoios-e-adicionar-refs-%C3%A0-sua-comunica%C3%A7%C3%A3o-'
       campaign_title: 'Minha Campanha'
       campaign:
@@ -115,7 +115,7 @@ http://suporte.catarse.me/hc/pt-br/articles/206507863-Catarse-flex-Principais-pe
           waiting_funds: '<span class="fontweight-semibold">%{username} estamos processando os últimos pagamentos!</span> Seu projeto foi finalizado em %{expires_at} e está aguardando confirmação de boletos e pagamentos. Devido à data de vencimento de boletos, projetos que tiveram apoios de última hora ficam por até 4 dias úteis nesse status, contados a partir da data de finalização do projeto. <a class="alt-link" href="http://suporte.catarse.me/hc/pt-br/articles/202037493-FINANCIADO-Como-ser%C3%A1-feito-o-repasse-do-dinheiro-" target="_blank">Entenda como o repasse de dinheiro é feito</a> para projetos bem sucedidos.'
           rejected: '<span class="fontweight-semibold">%{username} infelizmente não foi desta vez.</span> Você enviou seu projeto para análise do Catarse e entendemos que ele não está de acordo com o perfil do site. Ter um projeto recusado não impede que você envie novos projetos para avaliação ou reformule seu projeto atual. Converse com nosso atendimento! Recomendamos que você dê uma boa olhada nos <a class="alt-link" href="http://suporte.catarse.me/hc/pt-br/articles/202387638-Diretrizes-para-cria%C3%A7%C3%A3o-de-projetos" target="_blank">critérios da plataforma</a> e no <a class="alt-link" href="/guides">guia dos realizadores</a>.'
           draft: '<span class="fontweight-semibold">%{username} construa o seu projeto!</span> Quanto mais cuidadoso e bem formatado for um projeto, maiores as chances de ele ser bem sucedido na sua campanha de captação. Antes de publicar seu projeto, preencha todas as abas ao lado com carinho. Você pode salvar as alterações e voltar ao rascunho de projeto quantas vezes quiser. Quando tudo estiver pronto, clique no botão PUBLICAR.'
-      amount_per_day_label: 'R$ arrecadados por dia'
+      amount_per_day_label: '$ arrecadados por dia'
       contributions_per_day_label: 'Apoios confirmados por dia'
       location_origin_title: 'Localização geográfica dos apoios'
       ref_origin_title: 'Origem dos apoios'

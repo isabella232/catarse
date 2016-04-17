@@ -117,7 +117,7 @@ pt:
       new:
         no_rewards:
           label_title: 'Valor do seu apoio'
-          label_description: 'Você pode apoiar este projeto a partir de R$10'
+          label_description: 'Você pode apoiar este projeto a partir de $10'
           label_btn: 'Continuar'
           label_error: 'O valor do apoio está incorreto'
         page-title: Apoie o %{name}
@@ -125,7 +125,7 @@ pt:
         you_have_credits: "Você tem <strong>%{credits}</strong> em créditos para realizar este apoio."
         choose_reward: Escolha a recompensa e em seguida o valor do apoio
         choose_value: Digite o valor do seu apoio.
-        minimum_disclaimer: 'A partir de R$ <span id="minimum-value">10</span> está ótimo ;)'
+        minimum_disclaimer: 'A partir de $ <span id="minimum-value">10</span> está ótimo ;)'
         next_step: "Revisar e realizar pagamento"
         no_reward: Obrigado. Eu só quero ajudar o projeto.
       review:

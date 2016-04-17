@@ -17,7 +17,7 @@ en:
       banner:
         1: 'Apoiadores'
         2: 'Seus amigos, familiares e interessados no projeto.'
-        3: 'Recompensas'
+        3: 'Rewards'
         4: 'É o que você oferece em troca dos apoios.'
         5: 'Meta'
         6: 'O quanto você quer arrecadar no Catarse.'
@@ -37,7 +37,7 @@ en:
         src: 'z7FBAjkcLG8'
       categories:
         title: 'O Catarse tem espaço para vários tipos de projetos! Conheça nossas categorias!'
-        pledged: 'Arrecadou R$ {{pledged}} com {{contributors}} apoios para o projeto '
+        pledged: 'Arrecadou $ {{pledged}} com {{contributors}} apoios para o projeto '
         loading_featured: 'carregando projeto destaque...'
         no_featured: 'Nenhum projeto em destaque.'
       categoryProjects:
@@ -183,27 +183,27 @@ en:
           thumb: '/assets/start/thumb-marcela.jpg'
           content: 'Estou sequenciando o genoma do mexilhão dourado. Financiei coletivamente minha pesquisa de doutorado. Esse modelo poderia mudar o mundo.'
           name: 'Marcela Uliano'
-          totals: 'Arrecadou R$40.736 com a ajuda de 344 pessoas para viabilizar o projeto Genoma do Mexilhão Dourado.'
+          totals: 'Arrecadou $40.736 com a ajuda de 344 pessoas para viabilizar o projeto Genoma do Mexilhão Dourado.'
         2:
           thumb: '/assets/start/thumb-tiago.jpg'
           content: 'Tá afim de fazer? Mete a cara. Sim, a lei de incentivo só beneficia quem tem nome. E aí, você vai ficar parado? Pare de reclamar e vá buscar uma alternativa.'
           name: 'Tiago Vieira'
-          totals: 'Arrecadou R$34.260 com a ajuda de 203 pessoas para viabilizar o projeto "Quando parei de me preocupar com Canalhas". O filme foi parar em Cannes. ;)'
+          totals: 'Arrecadou $34.260 com a ajuda de 203 pessoas para viabilizar o projeto "Quando parei de me preocupar com Canalhas". O filme foi parar em Cannes. ;)'
         3:
           thumb: '/assets/start/thumb-natalia.png'
           content: 'Um bom repórter sabe como é difícil conseguir dinheiro para financiar a reportagem dos seus sonhos e ainda ter independência editorial para de fato escrever o que descobriu.'
           name: 'Natalia Viana'
-          totals: 'Arrecadou R$129.159 ao receber 1771 apoios para realizar 2 projetos da Agência Pública de Jornalismo Investigativo'
+          totals: 'Arrecadou $129.159 ao receber 1771 apoios para realizar 2 projetos da Agência Pública de Jornalismo Investigativo'
         4:
           thumb: '/assets/start/thumb-apanhador.jpg'
           content: 'A gente tem outras possibilidades para financiar, mas escolhe o crowdfunding por acreditar nesse caminho mesmo. Quanto mais o público estiver com as decisões na mão, melhor.'
           name: 'Alexandre Kumpinski (Apanhador Só)'
-          totals: 'Arrecadou R$163.600 ao receber 2181 apoios para realizar 2 projetos'
+          totals: 'Arrecadou $163.600 ao receber 2181 apoios para realizar 2 projetos'
         5:
           thumb: '/assets/start/thumb-larissa.png'
           content: 'Sei que têm mais 200 pessoas ali comigo, enviando energia positiva, torcendo, fazendo parte disso tudo e caminhando até as Olimpíadas comigo.'
           name: 'Larissa Juk'
-          totals: 'Arrecadou R$28.532 ao receber 218 apoios para o projeto Larissa Juk rumo a Olimpíada Rio 2016'
+          totals: 'Arrecadou $28.532 ao receber 218 apoios para o projeto Larissa Juk rumo a Olimpíada Rio 2016'
       qa_title: 'Ainda com dúvidas?'
       qa:
         col_1:

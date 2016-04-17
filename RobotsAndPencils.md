@@ -1,5 +1,33 @@
 # R&P Instructions
 
+## MEGA SUPER WARNING
+
+I am pretty sure that postgres & postgrest are not set up correctly. I had to give a couple roles additional access to ensure that they could read the appropriate data. And I am pretty sure this isn't right and may be a security risk.
+
+Beyond the demo, this will need to be an area where we need to do some research to eliminate technical debt and risk.
+
+## Settings
+
+All the settings are in a table. `settings`
+There's a shortcut to get and set them: `CatarseSettings[:column_name]`
+
+## Translations
+
+Yeah. So this part sucks.
+
+We have forked catarse.js because there are strings hard-coded into the JS.
+This is likely a bad way of doing things, but for now we don't have a lot of options.
+
+## Blog
+
+Hosted on tumblr and hacked in.
+
+http://start-io.tumblr.com
+username:  postmaster@startio-staging.com
+password:  markiscool
+
+There's up to a 10 minute cache delay on new articles.
+
 ## DEPLOYING TO CONVOX
 First we build the apps.
 
@@ -24,5 +52,5 @@ So we need to manually migrate things. That's okay because convox makes it easy.
 
 ```
 convox run app rake db:migrate
-convox run app rake db:selenium-webdriver
+convox run app rake db:seeed
 ```

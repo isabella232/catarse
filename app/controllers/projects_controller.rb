@@ -82,6 +82,7 @@ class ProjectsController < ApplicationController
   end
 
   def insights
+    I18n.locale = I18n.default_locale
     authorize resource, :update?
   end
 
@@ -138,7 +139,7 @@ class ProjectsController < ApplicationController
     resource.expires_at = nil
     resource.save!
     resource.project_transitions.destroy_all
-    redirect_to :back 
+    redirect_to :back
   end
 
   def embed

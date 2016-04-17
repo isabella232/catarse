@@ -31,7 +31,7 @@
                   .w-col.w-col-8.w-col-small-8.w-col-tiny-8.w-sub-col-middle.w-clearfix
                     .w-row
                       .w-col.w-col-3.w-col-small-3.w-col-tiny-3
-                        .back-reward-input-reward.placeholder R$
+                        .back-reward-input-reward.placeholder $
                       .w-col.w-col-9.w-col-small-9.w-col-tiny-9
                         input.user-reward-value.back-reward-input-reward autocomplete="off" min="0,00" value=@contribution.localized.value placeholder="10,00" type="tel" /
                         = form.input_field :value, value: number_with_precision( @contribution.value, precision: 2 ), as: :hidden

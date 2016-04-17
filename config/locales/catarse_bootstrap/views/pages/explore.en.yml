@@ -1,7 +1,7 @@
 en:
   pages:
     explore:
-      header_html: "Explore projetos incríveis &nbsp;"
+      header_html: "Explore amazing Projects &nbsp;"
       success_follow: "Obrigado! Vamos te mandar um email semanal com os projetos recentes da categoria %{name}."
       success_unfollow: "Você deixou de seguir a categoria %{name}."
       follow: Seguir
