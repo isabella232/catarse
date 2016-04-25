@@ -10,7 +10,7 @@ en:
       bank:
         account:  " Account: "
         name:  ' Name / Company Name: '
-        cpf_cnpj:  ' CPF / CNPJ: '
+        cpf_cnpj:  ' SIN / Incorporation Number: '
         bank_name:  ' Bank: '
         agency:  ' Agency '
     profile:
