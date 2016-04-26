@@ -12,7 +12,7 @@ en:
       slogan: 'Make your project happen!'
       header:
         people: "People have supported at least 01 project on Startio"
-        success: 'Project already financed here'
+        success: 'Projects already financed here'
         money: 'Were invested in project ideas publied on Startio'
       banner:
         1: 'Contributors'
@@ -22,17 +22,17 @@ en:
         5: 'Goal'
         6: 'The ammount of money that you want to achive'
         7: 'Time'
-        8: 'It is how long you campaing will be open for support'
+        8: 'It is how long you campaign will be open for support'
       features:
         title: 'The ideal platform for your campaign'
         subtitle: 'Learn about the solutions we developed to help you finance your idea!'
         feature_1: 'Fast and agile'
         feature_2: 'Control panel'
-        feature_3: 'Campaing blog'
+        feature_3: 'Campaign blog'
         feature_4: 'Installments support'
         feature_5: 'Facilitated transfers'
       video:
-        title: 'A Crowdfunding campaing is a fun!'
+        title: 'A Crowdfunding campaign is a fun!'
         subtitle: 'See if you like it...'
         src: 'z7FBAjkcLG8'
       categories:
@@ -169,7 +169,7 @@ en:
           label: 'Control panel'
           src: '/assets/start-painel-ui.gif'
         3:
-          label: 'Campaing Blog'
+          label: 'Campaign Blog'
           src: '/assets/start-blog-ui.gif'
         4:
           label: 'Installments support''
@@ -233,6 +233,6 @@ en:
             question: "I'm still not sure. What do I do?"
             answer: '<a href="http://suporte.Startio.me/hc/en-br">Contact our Help Center </a> or send us an Email at: contact@startio.me'
       form:
-        title: 'I want to start a campaing called'
-        select_default: 'Select a campaing'
+        title: 'I want to start a campaign called'
+        select_default: 'Select a campaign'
         submit: 'Start your draft project'
