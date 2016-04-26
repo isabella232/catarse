@@ -14,8 +14,8 @@ en:
       confirmed_contributions: 'Confirmed contributions'
       created_projects: 'Created projects'
   site:
-    description: O Startio é a primeira e maior plataforma de crowdfunding, ou financiamento coletivo, do Brasil. Venha tirar projetos do papel!
-    keywords: crowdfunding, financiamento coletivo, projeto, catarse, comunidade, open source
+    description: Startio is the first and the largest crowdfunding platform in Brazil. Come make your dream project reality!
+    keywords: crowdfunding, collective founding, project, catarse, community, open source
     meta_title: "%{title} · %{company_name}"
     title: Crowdfunding e financiamento coletivo no Brasil é no Startio
     # TODO: Change these if you're building a new site!
@@ -179,7 +179,7 @@ en:
         address_state: State
         address_street: Street
         address_zip_code: "Zip code"
-        cpf: 'CPF / CNPJ '
+        cpf: 'SIN / Incorporation Number '
         cpf_hint_title: 'An invoice will be issued for this document.'
         cpf_hint: '(?)'
         state_inscription: 'State Inscription'

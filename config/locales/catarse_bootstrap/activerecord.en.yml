@@ -1,13 +1,383 @@
 en:
   activerecord:
+    models:
+      channel: Chanel
+      project: Project
+      flexible_project: Project
+      reward: Reward
+      contribution: Contribution
+      category: Category
+      bank_account: Bank Account
+    attributes:
+      project_account:
+        address_city: City
+        address_complement: Complement
+        address_neighbourhood: Neighbourhood
+        address_number: Number
+        address_state: State/Province
+        address_street: Street
+        address_zip_code: 'Zip Code'
+        cpf: 'SIN / Incorporation Number '
+        state_inscription: 'State/Province Business Number'
+        email: Email
+        full_name: "Full Name / Company Name"
+        phone_number: "Telephone"
+        bank: 'Bank'
+        bank_id: 'Bank ID'
+        owner_name: 'Owner's name'
+        owner_document: 'SIN of the owner's number'
+        agency: 'Branch'
+        agency_digit: 'Branch number'
+        account: 'Account number'
+        account_digit: 'Account number'
+        account_type: 'Account type'
+      bank_account:
+        account_type: 'Account type'
+        input_bank_number: "Bank Number"
+        bank: 'Bank'
+        bank_id: 'Bank'
+        owner_name: 'Owner's Name'
+        owner_document: 'SIN / Incorporation Number'
+        agency: 'Branch'
+        agency_digit: 'Branch Number'
+        account: 'Account'
+        account_digit: 'Account Number'
+      payment:
+        state: 'Status'
+      contribution:
+        payer_name: "Full Name"
+        payer_email: "Email"
+        payer_document: "SIN / Incorporation Number"
+        country: "Country"
+        address_street: "Street"
+        address_number: "Number"
+        address_complement: "Complement"
+        address_neighbourhood: "Neighbourhood"
+        address_state: "State"
+        address_city: "City"
+        address_zip_code: "'Zip Code'"
+        address_phone_number: "Telephone"
+        value: Contribution
+        payer_name: "Full Name"
+        payer_email: "Email"
+        country: "Country"
+        address_street: "Street"
+        address_number: "Number"
+        address_complement: "Complement"
+        address_neighbourhood: "Neighbourhood"
+        address_state: "State"
+        address_city: "City"
+        address_zip_code: "'Zip Code'"
+        address_phone_number: "Telephone"
+        reward: Reward
+        project: Project
+      reward:
+        deliver_at: Tentative delivery at
+      flexible_project:
+        name: 'Project'
+        channels: Chanels
+        category: Category
+        expires_at: Expire at
+        online_days: "Pledge time"
+        headline: "Headline"
+        image_url: "Image's URL"
+        name: "Project"
+        goal: "Goal value"
+        about_html: "Project description"
+        user_id: "User Id"
+        service_fee: 'Catarse's fee'
+        video_url: "Video's URL"
+        permalink: 'Catarse's Project Link'
+        all_tags: 'Tags'
+        city: 'Project Location'
+        more_links: 'List some links about you project so people can get to know more!'
+        traffic_sources: 'How did you discover Catarse?'
+        first_contributions: "Who are the first people you will ask to support your Project?"
+        budget: 'Project budget'
+        uploaded_image: 'Project's Image'
+      project:
+        name: 'Project'
+        channels: Chanels
+        category: Category
+        expires_at: Deadline
+        online_days: "Contribution Deadline"
+        headline: "Headline"
+        image_url: "Image's URL"
+        name: "Project"
+        service_fee: 'Catarse's fee'
+        goal: "Amount to be collected"
+        about_html: "Project Description"
+        user_id: "User ID"
+        video_url: "video's URL"
+        permalink: 'Project's permalink'
+        all_tags: 'Tags'
+        city: 'Project location'
+        more_links: 'List some links about you project so people can get to know more!'
+        traffic_sources: 'How did you discover Catarse?'
+        first_contributions: "Who are the first people you will ask to support your Project??"
+        budget: 'Project budget'
+        uploaded_image: 'Project's Image'
+      user:
+        address_city: City
+        address_complement: Complement
+        address_neighbourhood: Neighbourhood
+        address_number: Number
+        address_state: State
+        address_street: Street
+        address_zip_code: 'Zip Code'
+        cpf: 'SIN / Incorporation Number '
+        cpf_hint: '(?)'
+        state_inscription: 'State/Province Business Number'
+        current_password: "Current password"
+        email: Email
+        full_name: "Full Name / Company Name"
+        bio: 'Mini Bio'
+        name: "Apelido"
+        newsletter: 'I want to receive Catarse's newsletter'
+        password: Password
+        password_confirmation: "Confirm your password"
+        phone_number: "Telephone"
+        cpf_hint_title: The receipt will be emitted for this document
+        id: ID
+        moip_login: MoIP Login
+        moip_login_hint: "(How to create an account)"
+        reset_password_token: "Reset password"
+      channel:
+        ga_code: Analytics' Code
+        description: Description
+        how_it_works: How it works
+        image: news image
+        name: Name
+        video_url: video
+      channel_partner:
+        name: 'Name'
+        url: 'Site'
+        image: 'Image'
+      project_post:
+        title: 'Title'
+        comment: 'Text'
+      channel_post:
+        title: 'Title'
+        body: 'Content'
+        visible: 'Publish (Mark in case you want to make this visible)'
     errors:
       models:
+        payment:
+          duplicate: "Your payment is being processed"
+        contribution: "There was an error saving your contribution"
+        bank_account:
+          attributes:
+            bank:
+              blank: 'Bank can't be left empty'
+            owner_name:
+              blank: 'Owner's name can't be left empty'
+              invalid: 'Enter a name with at least 5 and at most 30 letters'
+            owner_document:
+              blank: 'SIN / Incorporation Number can't be left empty'
+              invalid: 'SIN / Incorporation Number is invalid'
+            agency:
+              blank: 'Branch can't be left empty'
+              invalid: 'invalid branch'
+            account:
+              blank: 'Account number can't be left empty'
+            account_digit:
+              blank: 'Account number can't be left empty'
+              invalid: 'Account number invalid'
+            agency_digit:
+              blank: 'Branch number can't be left empty'
+              invalid: 'Branch number invalid'
+        project_account:
+          attributes:
+            full_name:
+              blank: "Company name can not be blank"
+            email:
+              blank: "Email can not be left blank"
+            cpf:
+              blank: "SIN can not be left blank"
+            address_street:
+              blank: "Street can not be left blank"
+            address_number:
+              blank: "Number can not be left blank"
+            address_city:
+              blank: "City can not be left blank"
+            address_state:
+              blank: "State/Province can not be left blank"
+            address_zip_code:
+              blank: "Zip Code can not be left blank"
+            phone_number:
+              blank: "Telephone can not be left blank"
+            bank:
+              blank: "Bank can not be left blank"
+            agency:
+              blank: "Branch can not be left blank"
+            agency_digit:
+              blank: "Branch number can not be left blank"
+            account:
+              blank: "Account number can not be left blank"
+            account_digit:
+              blank: "Account number can not be left blank"
+            owner_name:
+              blank: "Account number can not be left blank"
+            owner_document:
+              blank: 'SIN / Incorporation Number can't be left empty'
+              not_same: 'SIN / Incorporation Number entered is not the same as the one from your bank.'
+            account_type:
+              blank: "Account type can not be left blank"
+        flexible_project:
+          attributes:
+          rewards:
+            at_least_one: 'There must be at least one Reward'
+          city:
+            blank: Project location can't be blank
+          video_url:
+            blank: 'Project video can't be blank'
+          budget:
+            blank: 'Project budget can't be blank'
+          uploaded_image:
+            blank: 'Project image can't be blank'
+          name:
+            too_long: "Project name is too long (max: 50 characters)"
+            blank: "Project name can't be left empty"
+          permalink:
+            blank: "Project URL can't be left empty"
+            invalid: "Project URL i invalid"
+            taken: "This Project URL already exist"
+          category:
+            blank: "You must choose a catergory for your project"
+          goal:
+            blank: "The goal must be not left empty"
+            greater_than: "The goal must be greater than 9"
+            not_a_number: "Contribution goal only accepts numbers"
+          online_days:
+            blank: "Contribution deadline can't be left blank"
+            greater_than: "Contribution deadline must be a number greater than 2 dias"
+            less_than_or_equal_to: "Contribution deadline must be a number smaller than 60 dias"
+            not_a_number: "Deadline must be a number"
+          about_html:
+            blank: "Project description can't be left empty"
+          headline:
+            blank: "The Headling can not be left blank"
+            too_long: "Headline is too large. You can use at most 140 characters."
         project:
           attributes:
+            rewards:
+              at_least_one: 'There must be at least one Reward'
+            city:
+              blank: Project location can't be blank
+            video_url:
+              blank: 'Project video can't be blank'
+            budget:
+              blank: 'Project budget can't be blank'
+            uploaded_image:
+              blank: 'Project image can't be blank'
+            name:
+              too_long: "Project name is too long (max: 50 characters)"
+              blank: "Project name can't be left empty"
             permalink:
-              invalid: Invalid project URL
+              blank: "Project URL can't be left empty"
+              invalid: "Project URL i invalid"
+              taken: "This Project URL already exist"
+            category:
+              blank: "You must choose a catergory for your project"
+            goal:
+              blank: "The goal must be not left empty"
+              greater_than: "The goal must be greater than 9"
+              not_a_number: "Contribution goal only accepts numbers"
+            online_days:
+              blank: "Contribution deadline can't be left blank"
+              greater_than: "Contribution deadline must be a number greater than 2 dias"
+              less_than_or_equal_to: "Contribution deadline must be a number smaller than 60 dias"
+              not_a_number: "Deadline must be a number"
+            about_html:
+              blank: "Project description can't be left empty"
+            headline:
+              blank: "The Headling can not be left blank"
+              too_long: "Headline is too large. You can use at most 140 characters."
         user:
           attributes:
             email:
-              not_found: "Email not found, please sign up"
-              taken: "Email has already been taken"
+              not_found: "Email is not registered, verify email or sign up"
+              taken: "This email is already in use, try to log in"
+              invalid: "Email is invalid"
+              blank: "Email can't be left blank"
+            password:
+              too_short: "The password is too short"
+              confirmation: "The passowrds entered do not match"
+              blank: "Password can not be left empty"
+            current_password:
+              invalid: "Current passoword is not valid"
+            reset_password_token:
+              invalid: 'Token expired. Go to <a href="/password/new" class="alt-link">reset password</a> and reset your password'
+            name:
+              blank: "User name can not be blank"
+            about_html:
+              blank: "'About you' can not be blank"
+            uploaded_image:
+              blank: "User image can not be blank"
+  project:
+    update:
+      success: The information was updated
+      failed: 'The information was not saved, verify that all fields are filled in correctly'
+    delete:
+      posts: 'Post successfully deleted'
+    video_regex_validation: only Youtube or Vimeo URLs are accepted
+  payment:
+    state:
+      pending: "Waiting for payment confirmation"
+      paid: "Confirmed on %{date}"
+      refunded: "Refunded on %{date}"
+      pending_refund: "Refund request on %{date}"
+      refused: "Payment was refused on %{date}"
+      chargeback: "ContState"
+  contribution:
+    payment_details:
+      desconhecido: ""
+      creditos: "Credits"
+      boleto_bancario: "Bank slip"
+      cartao_de_credito: "Credit Card"
+      debito_bancario: "Debit"
+      cartao_debito: "Debit Card"
+      transferencia_bancaria: "Bank Transfer"
+      carteira_mo_ip: "MoIP wallet"
+      financiamento_bancario: "Financial Aid"
+    project_should_be_online: you can't support a project that is not online
+    reward_must_be_from_project: must be from the same project
+    should_not_contribute_if_maximum_contributions_been_reached: you have reached the maximum number of contributors
+    value_must_be_at_least_rewards_value: value must be at least %{minimum_value} for the selected reward
+  contribution_report_to_project_owner:
+    reward_description: Reward decription
+    deliver_at: Reward develivery date
+    confirmed_at: Payment confirmation dates
+    contribution_value: Contribution value
+    service_fee: Catarse's Fee
+    user_name: Supporter's Name
+    user_email: Catarse's profile email
+    cpf: Supporter's SIN
+    payer_email: Payment Method Email
+    gateway: Payment Method
+    street: Street
+    address_number: Number
+    complement: Complement
+    neighbourhood: Neighbourhood
+    city: City
+    address_state: State
+    zip_code: 'Zip Code'
+    anonymous: Anonymous
+  user:
+    no_name: No Name
+    contributions_text:
+      many: "Supported this and other %{total} Projects"
+      one: "Supported only this Project so far"
+      two: "Supported this and 1 more Project"
+  channels_subscribers:
+    created: 'You subscribed to  %{channel}'
+    deleted: 'You unsubscribed from %{channel}'
+  channels:
+    edit: Update channel
+    image_hint: Largest Resolution (600x121px)
+    subscribed: "+ %{count} subscribers"
+    back_to_news: '← Back to News'
+    follow: "Subscribe the channel"
+    following: "subscribed"
+    unfollow: "Unsubscribe"
+    subscribed: "%{count} subscribers"
