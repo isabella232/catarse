@@ -41,7 +41,7 @@ en:
           text: "Two names for the same practice in which people contribute small amounts to make projects happen."
         allornothing:
           title: "Why all or nothing?"
-          text_html: "We believe in the model "all or nothing" because campaigns are better funded and because it is one way we can ensure that a project will only happen if it can be delivered as described and promised to supporters."
+          text_html: 'We believe in the model "all or nothing" because campaigns are better funded and because it is one way we can ensure that a project will only happen if it can be delivered as described and promised to supporters.'
         services:
           title: "Our services"
           text: "Startio provides support to users and makes possible for projects to capture resources in a fast and direct way using the internet. Anyone above 18 years (or less, but with a legal representative) can use our services and make a crowdfunding campaign, as long as the project is in accordance with our selection criteria."
