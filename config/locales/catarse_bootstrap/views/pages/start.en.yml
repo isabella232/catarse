@@ -1,45 +1,45 @@
 en:
   pages:
     start:
-      description: 'O Catarse é a primeira e maior plataforma de crowdfunding, ou financiamento coletivo, do Brasil. Venha tirar projetos do papel!'
-      title: 'Crowdfunding e financiamento coletivo no Brasil é no Catarse'
-      tagline: 'Crowdfunding e financiamento coletivo no Brasil é no Catarse'
-      page-title: "Como funciona o Catarse?"
-      page-subtitle: 'Conheça os pilares básicos de uma campanha de financiamento coletivo'
-      title: "Financie seu projeto coletivamente"
-      submit: "Comece gratuitamente"
-      learn-more: "Saiba mais"
-      slogan: 'Tire o seu projeto do papel'
+      description: 'Startio is a crowdfunding platform that can help you to make your project happen!'
+      title: 'Crowdfunding and community funding is better done on Startio'
+      tagline: 'Crowdfunding and community funding is better done on Startio'
+      page-title: How does Startio works?"
+      page-subtitle: 'Discover the fundamentals of a crowdfunding campaign'
+      title: "Crowdfund your project"
+      submit: "Start free"
+      learn-more: "Discover more"
+      slogan: 'Make your project happen!'
       header:
-        people: "Pessoas já apoiaram pelo menos 01 projeto no Catarse"
-        success: 'Projetos ja foram financiados por aqui'
-        money: 'Foram investidos em ideias publicadas no Catarse'
+        people: "People have supported at least 01 project on Startio"
+        success: 'Project already financed here'
+        money: 'Were invested in project ideas publied on Startio'
       banner:
-        1: 'Apoiadores'
-        2: 'Seus amigos, familiares e interessados no projeto.'
+        1: 'Contributors'
+        2: 'Your friends, famlily and people interested in the project'
         3: 'Rewards'
-        4: 'É o que você oferece em troca dos apoios.'
-        5: 'Meta'
-        6: 'O quanto você quer arrecadar no Catarse.'
-        7: 'Tempo'
-        8: 'É o período que sua campanha estará aberta a receber apoios.'
+        4: 'It is what you offer back'
+        5: 'Goal'
+        6: 'The ammount of money that you want to achive'
+        7: 'Time'
+        8: 'It is how long you campaing will be open for support'
       features:
-        title: 'A plataforma ideal para sua campanha'
-        subtitle: 'Conheça as soluções que desenvolvemos para você financiar sua ideia!'
-        feature_1: 'Atendimento rápido e ágil'
-        feature_2: 'Painel de controle completo'
-        feature_3: 'Blog da campanha'
-        feature_4: 'Apoio parcelado'
-        feature_5: 'Repasse facilitado'
+        title: 'The ideal platform for your campaign'
+        subtitle: 'Learn about the solutions we developed to help you finance your idea!'
+        feature_1: 'Fast and agile'
+        feature_2: 'Control panel'
+        feature_3: 'Campaing blog'
+        feature_4: 'Installments support'
+        feature_5: 'Facilitated transfers'
       video:
-        title: 'Uma campanha de financiamento coletivo é emoção garantida. '
-        subtitle: 'Sente o gostinho...'
+        title: 'A Crowdfunding campaing is a fun!'
+        subtitle: 'See if you like it...'
         src: 'z7FBAjkcLG8'
       categories:
-        title: 'O Catarse tem espaço para vários tipos de projetos! Conheça nossas categorias!'
-        pledged: 'Arrecadou $ {{pledged}} com {{contributors}} apoios para o projeto '
-        loading_featured: 'carregando projeto destaque...'
-        no_featured: 'Nenhum projeto em destaque.'
+        title: 'Startio has support for different kinds of projects! Discover our categories!'
+        pledged: 'Pledged $ {{pledged}} with {{contributors}} project supporters '
+        loading_featured: 'loading featured project...'
+        no_featured: 'no feature project found'
       categoryProjects:
         1:
           category_id: 23
@@ -163,19 +163,19 @@ en:
             secondary: 8389
       panes:
         1:
-          label: 'Atendimento rápido e ágil'
+          label: 'Fast and Agile Support'
           src: '/assets/start-atendimento-ui.gif'
         2:
-          label: 'Painel de controle completo'
+          label: 'Control panel'
           src: '/assets/start-painel-ui.gif'
         3:
-          label: 'Blog da campanha'
+          label: 'Campaing Blog'
           src: '/assets/start-blog-ui.gif'
         4:
-          label: 'Apoio parcelado'
+          label: 'Installments support''
           src: '/assets/start-apoio.gif'
         5:
-          label: 'Repasse facilitado'
+          label: 'Facilitated transfer'
           src: '/assets/start-repasse.gif'
       testimonials_title: 'O que estão dizendo por aí...'
       testimonials:
@@ -208,31 +208,31 @@ en:
       qa:
         col_1:
           1:
-            question: 'Por que fazer uma campanha no Catarse?'
-            answer: 'Primeiro porque somos extremamente comprometidos e apaixonados pelo que fazemos e queremos ver seu projeto financiado. Mas também porque somos a primeira e maior plataforma em atuação no Brasil. Estamos trabalhando de forma independente para desenvolver o cenário de financiamento de projetos no Brasil e possibilitar que mais pessoas viabilizem suas ideias, sonhos e visões.'
+            question: 'Why start a crowdfunding campaign on Startio?'
+            answer: "First because we are extremely committed and passionate about getting your project funded. But also because we are the first and largest platform operating in Canada. We are working independently to develop the crowdfunding scenario in Canada and help more people to make their ideas a reality."
           2:
-            question: 'Dá muito trabalho ter uma campanha no Catarse?'
-            answer: 'Cada projeto no Catarse tem sua própria particularidade e a quantidade de trabalho varia. Inscrever um projeto no Catarse é muito fácil, mas uma campanha tem seus desafios. O segredo é ter um bom planejamento de campanha! Podemos te ajudar! <a href="#start-form">Só começar o seu rascunho.</a>'
+            question: 'How hard is to start a crowdfunding campaign on Startio?'
+            answer: 'Each project in Startio has its own particularities and the amount of work varies. Adding a project in Startio is very easy, but the campaign can be challenging. The secret is to have a good planning! We can help you! <a href="#start-form"> Just get your project started. </a> '
           3:
-            question: 'Como o Catarse seleciona projetos?'
-            answer: 'Todo projeto precisa ter início meio e fim, ter entregas e objetivos claros e estar de acordo com os termos de uso e regras do Catarse. <a href="http://suporte.catarse.me/hc/pt-br">Acesse nossa Central de Suporte</a> para mais informações.'
+            question: 'How does Startio selects projects?'
+            answer: 'Every project needs a begin, a middle and an end. It need to have deliverables and clear objectives and to comply with the terms of use and Startio rules. <a href="http://suporte.Startio.me/hc/en-br"> Visit our Support Center </a> for more information.'
           4:
-            question: 'Quem pode usar o Catarse?'
-            answer: 'O Catarse fornece suporte aos usuários do site e torna possível que projetos captem recursos de forma ágil e direta utilizando a internet. Qualquer pessoa acima de 18 anos (ou menor, mas com um representante legal) pode utilizar nossos serviços e fazer uma campanha de crowdfunding.'
+            question: 'Who can use Startio?'
+            answer: 'Startio provides support to users of the site and makes it possible for projects to capture resources in a fast and direct way using the internet. Anyone above 18 years (or less, but with a legal representative) can use our services and make a crowdfunding campaign.'
         col_2:
           1:
-            question: 'Preciso atingir a meta para receber meu dinheiro?'
-            answer: 'Atualmente utilizamos o modelo “tudo ou nada”, em que você só fica com o dinheiro caso atinja a meta de arrecadação no tempo de campanha estipulado por você. Caso o projeto não atinja a meta de arrecadação, iremos devolver integralmente o dinheiro para seus apoiadores, sem custo nenhum para você ou para quem te apoiou. O "tudo ou nada "é extremamente eficiente pois, além das campanhas arrecadarem mais, essa é uma das formas de assegurarmos que um projeto só acontecerá se ele puder ser entregue como foi descrito e prometido aos apoiadores.<br><br>No entanto, estamos construindo a modalidade flexível de financiamento coletivo para o Catarse, carinhosamente chamada de Catarse flex. Ela será diferente de todas as modalidades de campanhas flexíveis que existem no mercado. No modo Catarse flex você fica com todo o dinheiro que conseguir independente de bater a meta ou não. Essa modalidade ainda não está aberta ao público geral, mas você pode saiber mais em <a href="https://www.catarse.me/flex">www.catarse.me/flex</a>'
+            question: 'Do I need to reach the goal to get my money?'
+            answer: 'We currently use the model "all or nothing", you only keep the money if you reach the goal in the time stipulated by you. If the project does not reach the revenue target, we will fully return the money to its supporters, at no cost to you or who supported you. The "all or nothing" is extremely efficient because, in addition to campaigns securing more money, it is one way we can ensure that a project will only happen if it can be delivered as described and promised to the supporters. <br> However we are building a flexible form of crowdfunding for Startio, affectionately called Startio Flex. It will be different from all forms of flexible campaigns that exist in the market. In Startio Flex you get all the money, independently of reaching the target or not. This mode is not yet open to the general public, but you can discover more at <a href="https://www.Startio.me/flex"> www.Startio.me/flex </a>'
           2:
-            question: 'Quais são nossas taxas?'
-            answer: 'Cobramos 13% sobre o valor total de projetos que atingiram ou ultrapassaram a meta de arrecadação de sua campanha de crowdfunding. Ficamos com cerca de 9% e 4% é repassado ao Pagar.me, meio de pagamento utilizado no Catarse. Projetos na modalidade "tudo ou nada" de financiamento coletivo, e que não atingiram a meta de arrecadação no tempo de campanha, não têm qualquer custo e todos os apoiadores recebem o dinheiro de volta.'
+            question: 'What are your rates?'
+            answer: 'We charge 13% of the total value of projects that have reached or exceeded the target of your crowdfunding campaign. We get about 9% and 4% is passed on to "Pagar.me", the payment method used in Startio. Projects using the "all or nothing" crowdfunding mode, and those that did not reach the target in the campaign time have no cost and all supporters receive the money back.'
           3:
-            question: 'De onde vem o dinheiro do meu projeto?'
-            answer: 'Família, amigos, fãs e membros de comunidades que você faz parte são seus maiores colaboradores. Você agita essa rede, conquista apoios e promove o projeto. Apoiadores divulgam e recomendam sua campanha para outras pessoas que conhecem, e assim o círculo de apoiadores vai crescendo e a campanha recebendo apoios. O segredo é construir um bom projeto, planejar bem sua campanha e saber direcionar seus esforços de divulgação para quem realmente pode se interessar no que você está propondo em sua campanha de crowdfunding.'
+            question: 'Where does the money comes from?'
+            answer: 'Family, friends, fans and community members are you major contributors. Use your network, grab support and promote the project. Supporters promote and recommend your campaign to other people they know, and so the circle of supporters grows further. The secret is to build a good project, to plan your campaign and to direct the efforts of those who are actually interested in what you are proposing in your crowdfunding campaign.'
           4:
-            question: 'Tenho mais dúvidas. Como faço?'
-            answer: '<a href="http://suporte.catarse.me/hc/pt-br">Acesse nossa Central de Suporte</a> ou entre em contato conosco através do email: contato@catarse.me'
+            question: "I'm still not sure. What do I do?"
+            answer: '<a href="http://suporte.Startio.me/hc/en-br">Contact our Help Center </a> or send us an Email at: contact@startio.me'
       form:
-        title: 'Quero iniciar uma campanha chamada'
-        select_default: 'Selecione uma categoria'
-        submit: 'Comece seu rascunho'
+        title: 'I want to start a campaing called'
+        select_default: 'Select a campaing'
+        submit: 'Start your draft project'
