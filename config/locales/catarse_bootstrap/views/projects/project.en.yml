@@ -1,7 +1,7 @@
 en:
   projects:
     home:
-      row_title: 'Popluar'
+      row_title: 'Popular'
       banners:
         1:
           title: "The New Q's"
@@ -66,30 +66,30 @@ en:
         banner_home: 'prominent banner on the home page'
         ctrse_thankyou: 'thank you'
         project_post: 'Post new Project'
-        profile_contributed_projects: 'Perfil público de usuário (projetos apoiados)'
-        user_contributions: 'Perfil de usuário (projetos apoiados)'
-        notificacao_projeto_nao_financiado: 'Notificação de projeto não financiado'
-        notificacao_reminder: 'Notificação de Lembrete 48 horas'
-        profile_dashboard_created_projects: 'Perfil privado de usuário (projetos criados)'
-        ctrse_hello: 'Página Saiba Mais do Catarse'
-        credits_warning_more_group: 'Notificação de créditos'
-        hotsitepesquisa3anos: 'Pesquisa do Catarse RFCBR'
+        profile_contributed_projects: "User's public profile (contributed projects)"
+        user_contributions: "User's profile (contributed projects)"
+        notificacao_projeto_nao_financiado: 'Notification of project not supported'
+        notificacao_reminder: 'Reminder Notification 48 hours'
+        profile_dashboard_created_projects: "User's public profile (contributed projects)"
+        ctrse_hello: 'Get to know more about Catarse'
+        credits_warning_more_group: 'Credit Notification'
+        hotsitepesquisa3anos: 'Catarse Search RFCBR'
         ctrse_embed: 'Project Card (embed)'
-        home_near_of: 'Projetos próximos a mim na página inicial'
-        credits_warning_less_group: 'Notificação de créditos'
-        notificação_resgate_botao: 'Notificação resgate de créditos'
-        notificação_resgate_rascunho: 'Notificação de rascunho criado'
-        ctrse_newsletter: 'Newsletter do Catarse'
-        ctrse_facebook: 'Facebook do Catarse'
-        ctrse_patrocinado_facebook: 'Facebook patrocinado do Catarse'
-        ctrse_twitter: 'Twitter do Catarse'
-        ctrse_instagram: 'Instagram do Catarse'
-        ctrse_blog: 'Blog do Catarse'
-        ctrse_youtube: 'Youtube do Catarse'
-        ctrse_universohq: 'Universo HQ (parceria Catarse)'
-        ctrse_catraca: 'Catraca Livre (parceria Catarse)'
-        ctrse_hypeness: 'Hypeness (parceria Catarse)'
-        others: 'Direto'
+        home_near_of: 'Projects close to me in the hope page'
+        credits_warning_less_group: 'Credit Notification'
+        notificação_resgate_botao: 'Reward Notification'
+        notificação_resgate_rascunho: 'Draft Notification'
+        ctrse_newsletter: "Catarse's Newsletter"
+        ctrse_facebook: "Catarse's Facebook"
+        ctrse_patrocinado_facebook: "Catarse's Facebook"
+        ctrse_twitter: "Catarse's Twitter"
+        ctrse_instagram: "Catarse's Instagram"
+        ctrse_blog: "Catarse's Blog"
+        ctrse_youtube: "Catarse's youtube"
+        ctrse_universohq: "Universo HQ (Catarse's partner)"
+        ctrse_catraca: "Catraca Livre (Catarse's partner)"
+        ctrse_hypeness: "Hypeness (Catarse's partner)"
+        others: 'Direct'
       ref_table:
         header:
           origin: 'Source'
