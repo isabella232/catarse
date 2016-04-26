@@ -1,24 +1,82 @@
 en:
   admin: &admin
-    confirm_dialog: 'You are sure?'
+    filter:
+      title: 'Filters'
+    confirm_dialog: 'Are you sure?'
+    financials:
+      index:
+        id: ID
+        name: 'Title'
+        user: 'MoIP User'
+        user_id: 'User ID'
+        goal: 'Meta'
+        total_payment_service_fee: 'Service Fee'
+        total_catarse_fee: "Catarse's Fee"
+        zero_fee: 'Feeless Support?'
+        repass_value: 'Repass Value'
+        expires_at: 'Expires on'
+        online_date: 'Online on'
+        pledged: 'Reached'
+        recommended: 'Recomended?'
+        state: 'State'
+        menu: 'Financial Reports'
+        title: 'Financial Reports'
+        contribution_report: "Contribution Report"
+        search_report: "Search Report"
+        total_projects: 'projects'
+        submit: 'Filter'
+        by_state: 'By state'
+        between_expires_at: 'expires at'
+        by_progress: By progress %
+        details:
+          name: 'Company Name'
+          bank_data: 'Bank Details'
+          document: 'SIN / Incorporation Number'
+          email: 'E-mail'
+          state_inscription: 'Provincial Business Number'
+          address: 'Address'
+          phone_number: 'Phone Nmber'
+          permalink: "Projet's Permalink"
     projects:
       index:
-        by_state: 'By state'
-        between_created_at: 'Created at between'
-        submit: 'Filter'
+        with_state: 'By State/Province'
+        by_category: 'By Category'
+        project: 'Project'
+        user: 'User'
+        between_created_at: 'Created between'
+        goal_between: 'Goal between'
+        between_expires_at: 'Expires between'
+        between_online_at: 'Went onlin between'
+        between_updated_at: 'Atualizados entre'
+        by_user_email: "Producer's Email"
+        id: ID
+        name: 'Title'
         send_to_trash: 'Delete'
         send_to_draft: 'Send to DRAFT!'
         reject: 'Reject!'
         approve: 'Approve!'
+        user_id: 'User ID'
+        goal: 'Meta'
+        total_contributions: 'Contributions'
+        online_date: 'Went online'
+        pledged: 'Pledged'
+        recommended: 'Recomended?'
+        state: 'Province/State'
+        no_projects: 'No project found'
+        menu: 'Project Admin'
+        title: 'Project Management'
+        total_projects: 'projects'
+        submit: 'filter'
+        expires_at: 'Completion on'
+        category: 'Category'
+        order_table: 'Sort Table'
+        order_date: 'Submission Date'
         order_asc: 'Goal asc'
         order_desc: 'Goal desc'
         order_created_at: 'Submission date'
         last_modification: 'Last update'
-    financials:
-      index:
-        submit: 'Filter'
-        by_state: 'By state'
-        by_progress: By progress %
+    actions:
+      confirm: 'Confirm'
     users:
       index:
         title: "Management contributions"
@@ -37,6 +95,7 @@ en:
         total_credits_view: "calculated credits"
         user: User
         value: Value
+        payer_email: Payer Email
         provider: Provider
     contributions:
       messages:
@@ -48,21 +107,54 @@ en:
           hide: 'Contribution hidden!'
           cancel: 'Contribution canceled!'
           push_to_trash: 'Contribution deleted!'
+          request_refund: 'Refund request successful!'
+      show:
+        contribution_info: 'Contribution Information %{key}'
+        payment_id: 'Payment ID'
+        payment_method: 'Payment Method'
+        payment_fee: 'Payment method fee'
+        successful: 'successful'
+        payment_choice: 'Pay with'
+        payer_email: "Payer's Email"
+        user_email: "User's Email"
+        created_at: 'Created on'
       index:
+        details:
+          payer_email: "Payer's Email"
+          normal_email: "User's Email"
+          payment_id: 'Payment ID'
+          acquirer_tid: 'TID Operator'
+          payment_method: 'Payment Method'
+          payment_choice: 'Pay with'
+          acquirer_name: 'Credit Card Company:'
+          installments: 'Installments'
+          created_at: 'Created at'
+        placeholders:
+          project: 'Permalink or project name'
+          acquirer: 'Credit Card Company:'
+          user: 'ID, Name, Email'
+          payment_id: 'Key, payment ID or TID operator'
+        last_state: 'Previous state'
+        acquirer: 'Operator'
+        payment_tax: 'Payment method fee'
+        project_state: 'Project state'
         send_refund_request_contribution: 'Send refund request'
+        payer_email: 'Payer email'
+        payment_id: 'Id de pagamento'
+        user_email: 'Catarse user email'
         push_to_trash: 'Delete contribution'
         cancel: 'Cancel contribution'
+        between_values: 'Between'
+        by_state: 'By State'
         refund_and_hide: 'Refund and hide'
-        contribution_info: 'Info of contribution %{key}'
-        payment_id: 'Payment ID'
-        payment_method: 'Payment method'
-        payment_fee: 'Payment method fee'
-        payment_choice: 'Payment choice'
-        payer_email: 'Payer email'
-        user_email: 'Catarse user email'
         pending_to_refund: 'Pending to refund'
-        created_at: 'Created at'
+        confirm_contribution: 'Confirm contribution'
+        unconfirm_contribution: 'Cancel contribution'
+        refund_contribution: 'Refund contribution'
+        request_refund: 'Request refund'
+        direct_refund: 'Direct Refund'
         title: "Contributions management"
+        state: 'Current state'
         menu: Contributions
         anonymous: Anonymous?
         confirmed: Confirmed?

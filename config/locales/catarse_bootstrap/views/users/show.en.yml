@@ -10,7 +10,7 @@ en:
       bank:
         account:  " Account: "
         name:  ' Name / Company Name: '
-        cpf_cnpj:  ' CPF / CNPJ: '
+        cpf_cnpj:  ' SIN / Incorporation Number: '
         bank_name:  ' Bank: '
         agency:  ' Agency '
     profile:
@@ -53,7 +53,7 @@ en:
     credits:
       modal:
         title:  ' You really want to request a refund of your support? '
-        text:  " Learn how the refund process Catharsis: "
+        text:  " Learn how the refund process Catarse: "
         link:  " Rules and Functioning of refunds / chargebacks "
         reject_btn:  " No, I keep my credits "
         accept_btn:  " Yes, I request a refund of my support "
@@ -90,14 +90,14 @@ en:
       other_link:  " link on its website "
       change_password:  " Change my password "
       current_password_hint:  " <i> For the password is changed you need to confirm your current password </ i>. "
-      email_hint:  " .. Your email is used for sending communications of Catharsis and projects you support only He will not be visible on your profile When you support a project, we will give your email to the project owner so he can arrange the rewards. "
+      email_hint:  " .. Your email is used for sending communications of Catarse and projects you support only He will not be visible on your profile When you support a project, we will give your email to the project owner so he can arrange the rewards. "
       email_tooltip:  " Click here to fill in your email ... "
       gravatar_hint_html:  " . You can also change your photo using the %{link} with your email <br> It is as simple as sending an image and already works for other sites as well;) "
       local_avatar:  " My avatar "
       submit_text:  " Choose your image "
       submit:  " Send "
       my_data:  " My Data "
-      newsletter:  " I want to receive news from Catharsis by email "
+      newsletter:  " I want to receive news from Catarse by email "
       password_hint:  " <i> Leave blank if you do not want to change your password </ i>. "
       Deactivation:  " Deactivate my account "
       deactivate_notice:  " The account %{name} has been disabled. "
@@ -110,8 +110,8 @@ en:
     show:
       projects:
         here:  ' here '
-        no_projects:  "  %{name} has not started any project on Catharsis Does the inspiration will hit one of these.? "
-        no_projects_current_user_html:  " You have not started any project on Catharsis Let the inspiration hit and click %{link} to start.! "
+        no_projects:  "  %{name} has not started any project on Catarse Does the inspiration will hit one of these.? "
+        no_projects_current_user_html:  " You have not started any project on Catarse Let the inspiration hit and click %{link} to start.! "
         title:  "  %{name} Projects "
         title_current_user:  " My Projects "
       contributions:

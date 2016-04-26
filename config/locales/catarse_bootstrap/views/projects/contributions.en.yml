@@ -15,8 +15,7 @@ en:
         anonymous_description:  You've opted to remain incognito
         no_reward:  This supporter not selected any reward
       selected_reward:
-        review_without_reward_html:  You will support with <strong> %{value} </ strong>
-          and do not want any reward for their support.
+        review_without_reward_html:  "You will support with <strong> %{value} </ strong> do not want any reward for their support."
         value:  support value
         reward:  selected Reward
         edit:  Edit
@@ -39,7 +38,7 @@ en:
           when_about_my_payment_data:  What else can see my support?
           when_about_my_payment_data_answer:  The project will be added to your support history profile, but the amount you supported and the reward you choose, you will not be public.
           when_project_owner:  Who is responsible for the project?
-          when_project_owner_answer:  The catharsis is only an intermediary, if you want to understand more about the project, contact the %{name}
+          when_project_owner_answer:  The Catarse is only an intermediary, if you want to understand more about the project, contact the %{name}
           when_project_funded:  How do I get my reward?
           when_project_funded_answer:  When your reward is ready, %{name} will contact you to arrange delivery.
         all_or_nothing:
@@ -69,7 +68,7 @@ en:
         review_errors_title:  Check the reported data
         review_errors:  Some information is missing or not reported correctly, correct all the fields marked in red and tesnte again
         anonymous_confirmation_title:  Are you sure you want your support to be anonymous?
-        anonymous_confirmation:  Choosing this option your support will not be public for other users Catharsis Just you and the Project Director will have access to your support information..
+        anonymous_confirmation:  Choosing this option your support will not be public for other users Catarse Just you and the Project Director will have access to your support information..
         anonymous_contribution:  I want my support is not public
         form_labels:
           user_another_card:  Use another credit card
@@ -82,7 +81,7 @@ en:
           payment_card_installments:  plots
         installment_with_tax:  no interest
         transaction_error:  Transaction denied, please recheck your data or contact the bank / card issuer for more information.
-        pagarme_warning_html:  The Catharsis is in testing phase of a new means of payment that facilitate financial support and the possible reimbursement of the amounts to supporters Thus, caution that additional data may be required in addition to those mentioned in the Terms of Use for support. this project. If any difficulties, please contact us by email at  %{mailto}. Thank you.
+        pagarme_warning_html:  The Catarse is in testing phase of a new means of payment that facilitate financial support and the possible reimbursement of the amounts to supporters Thus, caution that additional data may be required in addition to those mentioned in the Terms of Use for support. this project. If any difficulties, please contact us by email at  %{mailto}. Thank you.
         payment_save_card:  I want to save my credit card to facilitate future support.
         reward_sold_out:  This reward is exhausted. Start a new support.
         page-title:  Support the %{name}
@@ -93,14 +92,12 @@ en:
         choose_payment:  Choose the method of payment
         choose_payment_subtitle:  INSURANCE PAYMENT
         cpf: "To continue, please enter:"
-        credits_notice_html:  This will be paid for their claims. After confirmation,
-          you will have a balance of <strong> %{credits} </ strong> in credits for
-          support other projects.
+        credits_notice_html:  "This will be paid for their claims. After confirmation, you will have a balance of <strong> %{credits} </ strong> in credits for support other projects."
         live_in_brazil:  I live in Brazil. (Uncheck if your support is international)
         number_card:  Card Data
         owner_card:  Cardholder Data
         payment_account:  Payment by Debit Account
-        payment_boleto:  Payment with Boleto
+        payment_boleto:  Payment with Pay slip
         payment_card:  Payment by card
         review_with_reward_html:  "You will support with <strong> %{value} </strong> earn the following reward:"
         select_account:  "You will be redirected to your bank's website:"
@@ -110,8 +107,7 @@ en:
           MoIP:  Make payment by MoIP
         subtitle:  These data will be reported to the project organizer.
         title:  Complete and review the data for payment
-        you_are_about_html:  You are about to join the group that does everything
-          for %{link} happen.
+        you_are_about_html:  "You are about to join the group that does everything for %{link} happen."
       new:
         no_rewards:
           LABEL_TITLE:  its support value
@@ -145,12 +141,9 @@ en:
         project_recommendations:  projects recommended for you
         profile_link:  through your profile
       show:
-        header_subtitle:  Without you maybe this project did not have a chance. Welcome
-          the team!
+        header_subtitle:  "Without you maybe this project did not have a chance. Welcome the team!"
         header_title:  "Thank you! :D"
-        moip_message:  Check your transaction is in progress and the code
-          MoIP is %{code}.<br> If you have any questions regarding the transaction, please
-          contact MoIP. An email will be sent when the payment is confirmed.
+        moip_message:  "Check your transaction is in progress and theMoIP code is %{code}.<br> If you have any questions regarding the transaction, please contact MoIP. An email will be sent when the payment is confirmed."
         recommended_projects:  "You can also enjoy these projects:"
         text_subtitle:  Tell everyone what you just did
         text_title_html:  You are now part of the group that does everything to the project %{link} to happen.

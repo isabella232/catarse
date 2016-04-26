@@ -1,97 +1,95 @@
 en:
   admin:
-    menu: "Moderação de Canais"
-    followers_menu: "Seguidores"
-    statistics_menu: "Estatísticas"
-    profile_menu: "Editar canal"
-    partners_menu: "Editar parceiros"
+    menu: "Channel Moderation"
+    followers_menu: "Followers"
+    statistics_menu: "Statistics"
+    profile_menu: "Edit channel"
+    partners_menu: "Edit partners"
     statistics:
-      title: 'Estatísticas do canal'
-      total_subscribers: 'Total de assinantes'
+      title: 'Channel statistics'
+      total_subscribers: 'Total number of subscribers'
     confirmations:
-      destroy: Você tem certeza que deseja deletar?
+      destroy: Are you sure you want to delete this?
     filter:
-      between_created_at: Criados entre
+      between_created_at: Create between
       by_id: Por id
-      order_table: Ordenar tabela
-      pg_search: Projeto
-      submit: Filtrar
-      title: Filtrar
-      user_name_contains: Usuário
-      with_state: Com o estado
-      by_payment_method: 'Meio de pagamento'
+      order_table: Order Table
+      pg_search: Project
+      submit: Filter
+      title: Filter
+      user_name_contains: "User"
+      with_state: With state
+      by_payment_method: 'Payment Method'
       by_gateway: 'Gateway'
     followers:
       index:
-        download: Baixar lista
-        title: Seguidores
+        download: Download list
+        title: Followers
     management:
-      no_partners: Nenhum parceiro cadastrado
-      no_posts: Nenhuma novidade cadastrada
-      title: Gerenciamento
-      total: projetos no total
+      no_partners: No partners
+      no_posts: No posts
+      title: Management
+      total: Number of Projects
     partners:
-      back_to_list: "← Voltar para gerenciar parceiros"
+      back_to_list: "← Return to 'Manage partners'"
       new:
-        add_partner: Adiconar parceiro
+        add_partner: Add partner
       edit:
-        edit_title: Editar parceiro
+        edit_title: Edit partner
       form:
-        hint_image: Tamanho da imagem 370x320
-        save_submit: Salvar
+        hint_image: Image Size 370x320
+        save_submit: Save
       index:
-        new_button: Adicionar parceiro
+        new_button: Add partner
         table:
-          created_at: Criado em
-          image: Imagem
-          name: Nome
-          url: Site
-          actions: Ações
-        title: Gerenciar parceiros
+          created_at: Created at
+          image: Image
+          name: Name
+          url: URL
+          actions: Action
+        title: Manage partners
     posts:
-      back_to_list: "← Voltar para gerenciar novidades"
+      back_to_list: "← Return to 'Manage Posts'"
       new:
-        create_news: Criar novidade
+        create_news: Create Post
       edit:
-        edit_news: Editar Novidade
+        edit_news: Edit Post
       index:
-        new_post_button: Criar novidade
+        new_post_button: New Post
         table:
-          actions: Ações
-          created_at: Criado em
-          published_at: Publicado em
-          title: Título da novidade
-        title: Gerenciar novidades
+          actions: Action
+          created_at: Created at
+          published_at: Published at
+          title: Post title
+        title: Manage Posts
       form:
-        save_submit: Salvar e visualizar
+        save_submit: Save and Submit
       update:
-        published_message: Sua novidade foi publicada e enviada por email aos seguidores
-          do canal.
-      warning_html: Lembrando que toda novidade publicada vai diretamente para o
-        email de seus seguidores. Por isso, revise bem seu texto antes de enviá-lo.
-    posts_menu: Gerenciar novidades
+        published_message: "The post news published and mailed to the channel's followers"
+      warning_html: "Remember that all published posts go directly to your followers' email. So review your text before sending it."
+    posts_menu: Manage Posts
     table:
-      approve: Aprovar
-      category: Categoria
-      confirmation: Tem certeza que deseja deletar esse projeto?
-      contributed_projects: Projetos apoiados
-      created_projects: Projeto criados
-      destroy_action: Deletar
-      edit_action: Editar
-      expires_at: Término
-      goal: Meta
-      name: Título
-      online_date: Publicação
-      pledged: Alcançado
-      publish_action: Publicar
-      recommended: Recomendar
-      reject: Rejeitar
-      send_to_draft: Enviar para rascunho
-      put_online: Colocar no ar
-      send_to_trash: DELETAR PROJETO
-      show_action: Visualizar
-      state: Estado
-      total_contributions: Apoios
-      unpublish_action: Despublicar
-      user: Usuário
-      user_id: Usuário
+      approve: Aprove
+      category: Category
+      confirmation: "Do you really want to delete this project?"
+      contributed_projects: Supported projects
+      created_projects: Created projects
+      destroy_action: Delete
+      edit_action: Edit
+      expires_at: Deadline
+      goal: Goal
+      name: Title
+      online_date: Published on
+      pledged: Pledged
+      publish_action: Publish
+      recommended: Recomend
+      reject: Reject
+      send_to_draft: Save as Draft
+      put_online: Publish online
+      send_to_trash: Delete Project
+      show_action: Visualize
+      state: State/Province
+      total_contributions: Contributions
+      unpublish_action: Unpublish
+      user: "User"
+      user_id: "User"
