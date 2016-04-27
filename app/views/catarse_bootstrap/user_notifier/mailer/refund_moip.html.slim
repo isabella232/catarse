@@ -1,27 +1,27 @@
 - user = @notification.user
-|Olá #{user.name}, tudo bem?
+|Hello #{user.name}, how are you?
 br
-|Sabe quando você acha aquela nota de dinheiro no bolso de uma calça que não usava faz tempo? Pois esse e-mail é pra relembrarmos essa gostosa sensação. =D
+|You know when you find that 20 dollar bill in the pocket of your pants that you forgot about long ago. This email is to remind ourselves that good feeling. = D
 br
-|Para muitos casos, não tínhamos uma solução simples para fazer o reembolso. Agora estamos em um processo para otimizar essa etapa. Você faz parte do primeiro grupo para o qual iremos fazer o reembolso direto na conta bancária. :-)
+|In many cases, we did not have a simple solution to refund supporters. Now we optimizing this step. You are part of the first group that will be refunded directly to the bank account. :-)
 br
-|Pra isso, precisaremos que vocês preencham o formulário abaixo com seus dados bancários: #{link_to 'http://bit.ly/reembolsoCatarse', 'http://bit.ly/reembolsoCatarse'}
+|For that, we need you to fill out the form below with your bank details: #{link_to 'http://bit.ly/reembolsoCatarse', 'http://bit.ly/reembolsoCatarse'}
 br
-|O valor do apoio que você fez e que será reembolsado é de: $#{user.contributions.where(state:'requested_refund').sum(:value)}.
+|The amount of contibution that you pledged and you will be refunded is: $#{user.contributions.where(state:'requested_refund').sum(:value)}.
 br
-|Infelizmente, como seu apoio foi feito há mais de 120 dias, não conseguiremos reembolsar a taxa do meio de pagamento (cartão ou boleto) e a descontaremos na hora de efetuar o depósito. Esta taxa é diferente de acordo com a forma de pagamento utilizada, sendo que pode variar entre 2% e 6% do seu apoio.
+|Unfortunately, as your contribtuion was made more than 120 days, we will not refund the fee payment method (card or ticket). This rate is different according to the used form of payment, and which may vary between 2% and 6% of the support.
 br
-|O(s) número(s) de identificação do seu apoio é:
+|The identification number of their contribution is:
 br
 - user.contributions.where(state:'requested_refund').each do |contribution|
   |#{contribution.key}
   br
-|Iremos fazer o depósito na sua conta até novembro/2014. Isso porque teremos que fazer, uma a uma, quase 8 mil operações. Preferimos definir um prazo mais longo e entregar como prometido do que prometer algo pra amanhã e não cumprir.
+|We will make the deposit in your account until November / 2014. That's because we have to do one by one, almost 8000 operations. We prefer to define a longer term and deliver as promised than promise something for tomorrow and not keep.
 br
-|Espero que vocês compreendam e estamos aqui para tirar qualquer dúvida. Para isso, é só responder a esta mensagem.
+|I hope you understand and are here to take any questions. To do so, just reply to this message.
 br
-|Muito obrigado!
+|Thanks
 br
 |Diego Reeberg
 br
-|Malabarista Organizacional
+|Organizational Juggler

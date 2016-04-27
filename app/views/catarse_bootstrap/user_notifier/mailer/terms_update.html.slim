@@ -1,35 +1,34 @@
 - user = @notification.user
 
-| Olá #{user.display_name},
+| Hello #{user.display_name},
 br/
 br/
-| Esse email é para notificar a recente atualização nos nossos #{link_to 'termos de uso', 'http://www.catarse.me/pt/terms-of-use', target: '__blank'} 
-'  e #{link_to 'política de privacidade', 'http://www.catarse.me/pt/privacy-policy', target: '__blank' } no Catarse. As mudanças estão relacionadas ao novo meio de pagamento que o Catarse está utilizando e passam a valer para projetos que entrarem no ar dia 10/11/2014.
+| This email is to notify the recent update to our #{link_to 'terms of use', 'http://www.catarse.me/pt/terms-of-use', target: '__blank'}
+'  e #{link_to 'privacy policy', 'http://www.catarse.me/pt/privacy-policy', target: '__blank' }. The changes are related to new payment method that Startio is using and began to apply to projects that go online on 11/10/2014.
 br/
 br/
-| Resumindo as mudanças:
+| Summarizing the changes:
 br/
 br/
-| - projetos não financiados não geram mais créditos (independentemente de quando entraram;
+| - unfunded projects do not generate more credits (regardless of when they entered);
 br/
-| - não haverá a possibilidade de usar créditos em nenhum projeto;
+| - there will be the possibility of using credits on any project;
 br/
-| - Se o projeto não for financiado, reembolso do pagamento feito via cartão de crédito em até 5 dias úteis direto na fatura;
+| - If the project is not funded, reimbursement of the payment is made via credit card within 5 working days directly on the invoice;
 br/
-| - Se o projeto não for financiado, reembolso do pagamento feito via boleto em até 10 dias úteis direto na conta bancária informada no momento do pagamento;
+| - If the project is not funded, reimbursement of the payment made via ticket within 10 days directly in the given bank account at the time of payment;
 br/
-| - opção de salvar os dados do cartão de crédito no perfil do Catarse.
-br/
-br/
-| Para ler todos os detalhes veja nosso #{link_to 'post no blog', 'http://blog.catarse.me/pode-parcelar-pode-e-salvar-o-cartao-e-automatizar-reembolsos-e-repasses/', target: '__blank'} ou 
-'  leia os #{link_to 'termos de uso', 'http://www.catarse.me/pt/terms-of-use', target: '__blank'} 
-'  e #{link_to 'política de privacidade', 'http://www.catarse.me/pt/privacy-policy', taget: '__blank'} atualizados.
+| - option to save the credit card data in the Startio profile.
 br/
 br/
-| Se ficou com alguma dúvida entre em contato conosco respondendo a este email ou através do #{mail_to CatarseSettings[:email_contact]}
+| To read all the details see our #{link_to 'post no blog', 'http://blog.catarse.me/pode-parcelar-pode-e-salvar-o-cartao-e-automatizar-reembolsos-e-repasses/', target: '__blank'} or
+'  Read #{link_to 'terms of use', 'http://www.catarse.me/pt/terms-of-use', target: '__blank'}
+'  and #{link_to 'privacy policy', 'http://www.catarse.me/pt/privacy-policy', taget: '__blank'} updated.
 br/
 br/
-| Um abraço,
+| If you have any questions please contact us by replying to this email or by #{mail_to CatarseSettings[:email_contact]}
 br/
-| Catarse
-
+br/
+| Regards,
+br/
+| Startio

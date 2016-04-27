@@ -2,27 +2,26 @@
 - project_account = project.account
 - project_link = project_by_slug_url(permalink: project.permalink)
 br/
-| O projeto #{project.name} (#{project_link}) está aguardando boletos e provavelmente será bem sucedido.
+| The project #{project.name} (#{project_link}) está aguardando boletos e provavelmente será bem sucedido.
 br/
-| Arrecadado: #{project.display_pledged_with_cents}
+| Pledged: #{project.display_pledged_with_cents}
 br/
-| Data de expiração: #{project.display_expires_at}
+| Deadline: #{project.display_expires_at}
 br/
-| Dados do realizador:
+| Project Owner:
 br/
-| Nome: #{project.user.name}
+| Name: #{project.user.name}
 br/
 | Email: #{project.user.email}
 br/
-| Telefone: #{project.user.phone_number}
+| Telephone: #{project.user.phone_number}
 br/
-| Dados Bancarios:
+| Bank Details:
 br/
-| Banco: #{project_account.try(:bank).try(:name)}
+| Bank: #{project_account.try(:bank).try(:name)}
 br/
-| Agência: #{project_account.try(:agency)}- #{project_account.try(:agency_digit)}
+| Branch: #{project_account.try(:agency)}- #{project_account.try(:agency_digit)}
 br/
-| Conta: #{project_account.try(:account)} - #{project_account.try(:account_digit)}
+| Account: #{project_account.try(:account)} - #{project_account.try(:account_digit)}
 br/
-| Nome do titular: #{project_account.try(:owner_name)}
-
+| Holder's Name: #{project_account.try(:owner_name)}

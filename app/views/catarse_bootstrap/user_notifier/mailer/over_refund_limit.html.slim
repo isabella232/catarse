@@ -2,27 +2,27 @@
 - transfer = @notification.try(:user_transfer)
 - bank_account = (contribution || transfer).user.bank_account
 
-p Olá Suporte! 
+p Hello Suport!
 
-p O número de tentativas de reembolso automático desse apoio foi excedido. Isso deve ter acontecido por erros nos dados bancáriso preenchidos ou por ser uma conta poupança:
+p The number of automatic refund attempts has been exceeded. This should have happened due to errors in your bank details:
 
 - if contribution
   p
-    | ID do pagamento: #{contribution.details.ordered.first}
+    | Payment ID: #{contribution.details.ordered.first}
 
 p
-  |Banco: #{bank_account.try(:bank).to_s}
+  |Bank: #{bank_account.try(:bank).to_s}
 p
-  |Agência: #{bank_account.try(:agency)} - #{bank_account.try(:agency_digit)}
+  |Branch: #{bank_account.try(:agency)} - #{bank_account.try(:agency_digit)}
 p
-  |Conta: #{bank_account.try(:account)} - #{bank_account.try(:account_digit)}
+  |Account: #{bank_account.try(:account)} - #{bank_account.try(:account_digit)}
 p
-  |Nome do titular: #{bank_account.try(:owner_name)}
+  |Account Owner: #{bank_account.try(:owner_name)}
 p
-  |CPF: #{bank_account.try(:owner_document)}  
+  |SIN: #{bank_account.try(:owner_document)}
 
-p Cheque com o apoiador os dados informados e depois peça esse reembolso especial ou direto.
+p Check with the supporter the reported data and then ask that special or direct refund.
 
-p Abraços,
+p Regards,
 
-p Catarse
+p Startio

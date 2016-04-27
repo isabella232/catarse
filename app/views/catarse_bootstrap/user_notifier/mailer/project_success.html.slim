@@ -3,37 +3,39 @@
 - project_link = edit_project_url(project)
 - company_name = CatarseSettings[:company_name]
 
-| Uhuu, #{project.user.name},
+| Hooray, #{project.user.name},
 br/
-p Parabéns pela campanha!
-p O projeto #{link_to project.name, project_link} foi financiado!
-| Depois de comemorar com vontade o término bem sucedido da sua campanha, é hora de voltar ao trabalho!
-'  Reunimos aqui algumas <strong>informações importantíssimas para essa nova etapa!</strong>
+p Congratulations campaign!!
+p The project  #{link_to project.name, project_link} was funded!
+| After celebrating with the successful completion of your campaign, it's time to get back to work!
+'We have gathered here some <strong> very important information for this new stage! </strong>
 br/
 br/
-| <strong>1</strong>: Para que tudo corra bem e não haja nenhum atraso no envio do dinheiro é importante atualizar seus os dados bancários na #{link_to 'aba Conta', edit_project_url(project, anchor: 'user_settings') }. <strong>Caso precise fazer alterações no cadastro atual, por favor, envie os dados corretos em resposta a esta mensagem. 
+| <strong>1</strong>: For everything goes well and there is no delay in sending the money is important to update your bank details in #{link_to 'the Account tab', edit_project_url(project, anchor: 'user_settings') }. <strong>If you need to make changes to the current register, please send the correct data in response to this message.
 </strong>.
 br/
 br/
-| O valor arrecadado estará disponível na sua conta bancária  até o <strong>dia #{(project.expires_at + 15.days).strftime('%d/%m/%Y')}</strong>
+| The amount collected will be available in your bank account until the <strong> day #{(project.expires_at + 15.days).strftime('%d/%m/%Y')}</strong>
 br/
-strong> Confira:
-= link_to 'Como será feito o repasse?', 'http://suporte.catarse.me/hc/pt-br/articles/202037493-Como-ser%C3%A1-feito-o-repasse-do-dinheiro-', target: '__blank'
+strong> Check out::
+= link_to 'How is the transfer going to happen', 'http://suporte.catarse.me/hc/pt-br/articles/202037493-Como-ser%C3%A1-feito-o-repasse-do-dinheiro-', target: '__blank'
 br/
 br/
-| 2 - <strong>Organização é tudo!</strong> Na <strong>aba Relatórios</strong> de apoios, baixe planilhas com as <strong>informações sobre os seus apoiadores</strong> e comece a organizar a <strong>entrega das recompensas!</strong> 
+| 2 - <strong>Organização é tudo!</strong> Na <strong>aba Relatórios</strong> de apoios, baixe planilhas com as <strong>informações sobre os seus apoiadores</strong> e comece a organizar a <strong>entrega das recompensas!</strong>
+Organization is everything! </strong> In the <strong> tab Reports </strong> you can download spreadsheets with <strong> information about your supporters </strong> and start to organize <strong> the delivery of rewards! </strong>
 br/
 br/
 = image_tag 'https://s3.amazonaws.com/cdn.catarse/notifications_assets/reports.gif', width: 600
 br/
 br/
-| <strong>3 - Converse com seus apoiadores hoje, amanhã e sempre!</strong> As pessoas demonstraram respeito por você ao te apoiar financeiramente e esperam o mesmo em troca. <strong>A Aba de novidades</strong> ficará disponível para sempre. <strong>Procure fazer postagens de maneira recorrente</strong> mantendo seus apoiadores informados sobre o andamento do projeto. 
+| <strong>3 - Talk to your supporters today, tomorrow and forever </strong> People showed respect and supported you financially and expect the same in return. <strong>The Post Tab</strong> will be available forever.  <strong> Try to make posts recurrently </strong> keeping its supporters informed about the progress of the project.
 br/
 br/
 = image_tag 'https://s3.amazonaws.com/cdn.catarse/notifications_assets/post.gif', width: 600
 br/
 br/
-p Se ficou com alguma dúvida, responda a esta mensagem diretamente ou fale conosco através do e-mail #{mail_to CatarseSettings[:email_projects]}. Caso precise falar via telefone estaremos a disposição de segunda à sexta das 14h às 18h no telefone  (11) 98414-0090.
-p Um abraço apertado de parabéns!
+/ TODO: Must localize this for real, I don't  know Startios phone number
+p If you got any questions, please reply directly to this message or contact us by e-mai #{mail_to CatarseSettings[:email_projects]}. f you need to talk over the phone we will be available Monday to Friday from 2pm to 6pm on the phone (11) 98414-0090.
+p Congratulations!
 br/
-| A equipe do #{company_name} está vibrando com você!!!!
+| Our team at #{company_name} is happy for you!!!!
