@@ -4,64 +4,64 @@
 - project_link = edit_project_url(project)
 - company_name = CatarseSettings[:company_name]
 
-|Olá, #{user.decorate.display_name}.
+|Hello, #{user.decorate.display_name}.
 br/
 br/
-| <strong>O projeto #{link_to project.name, project_link, target: '__blank'} está no ar e já pode receber apoios!</strong>
+| <strong>The project #{link_to project.name, project_link, target: '__blank'} Is published and can now receive support </strong>
 br/
 br/
-| É muito importante se planejar para uma campanha. Mas se você não planejou suas ações anteriormente, não perca tempo.
-'  A hora é essa! Estamos aqui para te ajudar! Para conversar sobre estratégias de comunicação com nossa equipe e receber 
-'  sugestões sobre como agir na sua campanha, responda esse email ou envie uma mensagem para #{mail_to CatarseSettings[:email_projects]}.
+| It is very important to plan your campaign. But if you did not plan your actions before, do not waste time.
+'The time is now! We are here to help you! Discuss communication strategies with our team and receive
+'suggestions on how to act in your campaign, reply to this email or send a message to #{mail_to CatarseSettings[:email_projects]}.
 br/
 br/
-| Confira nosso #{link_to 'GUIA DE REALIZADORES', guides_url} para saber mais sobre como conduzir uma campanha!
+| Check out our  #{link_to 'GUIA DE REALIZADORES', guides_url} to learn about how to conduct a campaign!
 br/
 br/
-| Lembre-se que <strong>você é o responsável por promover a campanha e cuidar da divulgação do projeto.</strong> É da sua rede que virão grande parte dos apoios! 
+| Remember that <strong> you are responsible for promoting the campaign and take care of the project dissemination. </strong> It is from your network that will come most of the support!
 br/
 br/
-strong Uma pequena lista sobre o que pode ou não ser alterado em um projeto no ar:
+strong A short list of what can and can not be changed in a published project:
 br/
 br/
-strong Posso
+strong You Can
 br/
-| -  #{link_to 'Baixar relatórios de apoios', edit_project_url(project, anchor: 'reports')}
+| -  #{link_to 'Download support reports'', edit_project_url(project, anchor: 'reports')}
 br/
-| -  #{link_to 'Acompanhar os gráficos da sua campanha', edit_project_url(project, anchor: 'home')}
+| -  #{link_to 'See the graphics and metrics of your campaign', edit_project_url(project, anchor: 'home')}
 br/
-| - Trocar o vídeo principal da sua campanha
+| - Change the main video of your campaign
 br/
-| - Enviar novidades diretamente para email dos meus apoiadores
+| - Send news directly to email my supporters
 br/
-| - Baixar relatórios
+| - Download reports
 br/
-| - Editar a descrição do seu projeto
+| - Edit the description of your project
 br/
-| - Criar novas recompensas
+| - Create new rewards
 br/
-| - Alterar conteúdo e valor de recompensas que ninguém escolheu
+| - Change content and value of rewards that no one chose
 br/
-| - Alterar o limite de apoiadores de uma determinada recompensa
+| - Change the ammount of a particular reward
 br/
-| - Esgotar recompensas (limitando-as para um numero X de apoiadores)
+| - Exhausting rewards (limiting them to an X number of supporters)
 br/
-| - Trocar o Thumbnail e a Frase de Efeito do seu projeto
-br/
-br/
-strong Não posso
-br/
-| - Alterar meta de arrecadação
-br/
-| - Alterar o prazo escolhido
-br/
-| - Alterar recompensas onde existem apoios já efetuados
+| - Change Thumbnail and Effect Headline of your project
 br/
 br/
-| Por favor </strong>não esqueça de incluir na sua lista de contatos os e-mails:</strong>
-'  #{mail_to CatarseSettings[:email_projects]} e #{mail_to CatarseSettings[:email_contact]} para evitar que nossas mensagens caiam na sua caixa de spam devido a filtros do seu email.
+strong You Can't
+br/
+| - Change collection target
+br/
+| - Change the chosen term
+br/
+| - Change rewards where there are support already made
 br/
 br/
-| Um abraço,
+| Please </ strong> do not forget to include in your contact list e-mails:</strong>
+'  #{mail_to CatarseSettings[:email_projects]} and #{mail_to CatarseSettings[:email_contact]} to prevent our messages fall into your spam due to your email filters.
 br/
-| A equipe do #{company_name} te deseja uma boa campanha!!!!
+br/
+| Regards,
+br/
+| Our team #{company_name} wishes you a good campaign!!!!

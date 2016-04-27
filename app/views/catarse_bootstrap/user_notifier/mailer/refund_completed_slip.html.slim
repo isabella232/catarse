@@ -5,28 +5,28 @@
 - user = @notification.contribution.user
 - bank_account = user.bank_account
 
-|Olá, <strong>#{contribution.user.display_name}</strong>!
+|Hello, <strong>#{contribution.user.display_name}</strong>!
 br
 br
-|A devolução do valor do seu apoio para o projeto #{contribution.project.name} no #{company_name} acabou de ser realizada para a conta bancária:
+|The refund of you contributions to the project #{contribution.project.name} on #{company_name} was just credit on your bank account:
 br
 br
-| Banco: #{bank_account.try(:bank).to_s}
+| Bank: #{bank_account.try(:bank).to_s}
 br
-| Agência: #{bank_account.try(:agency)} - #{bank_account.try(:agency_digit)}
+| Branch: #{bank_account.try(:agency)} - #{bank_account.try(:agency_digit)}
 br
-| Conta: #{bank_account.try(:account)} - #{bank_account.try(:account_digit)}
+| Account: #{bank_account.try(:account)} - #{bank_account.try(:account_digit)}
 br
-| Nome: #{bank_account.try(:owner_name)}
+| Name: #{bank_account.try(:owner_name)}
 br
-| CPF: #{bank_account.try(:owner_document)}  
+| SIN: #{bank_account.try(:owner_document)}
 br
-| Valor devolvido: #{number_to_currency detail.value}
+| Refunded Value: #{number_to_currency detail.value}
 br
-| Identificação no seu extrato bancário: "PAGAR.ME PAGAMENTOS"
+| Statement identification: "PAGAR.ME Payments"
 br
 br
-|Se ficou com alguma dúvida, entre em contato conosco respondendo a esta mensagem ou através do e-mail #{mail_to contact_email}. Não esqueça de nos informar a chave de identificação do seu apoio, que é: #{detail.payment_id}
+|If you got any questions, please contact us by replying to this message or by e-mail #{mail_to contact_email}. Do not forget to tell us your support identification key, which is: #{detail.payment_id}
 br
 br
 |Um abraço,

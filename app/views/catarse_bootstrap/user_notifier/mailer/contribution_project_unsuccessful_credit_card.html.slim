@@ -1,26 +1,26 @@
 - contribution = @notification.contribution
 - details = contribution.details.first
 
-|Olá, #{contribution.user.name}!
+|Hello, #{contribution.user.name}!
 br
 br
-| Infelizmente o projeto #{link_to(contribution.project.name, project_by_slug_url(permalink: contribution.project.permalink))} que você apoiou não atingiu a meta estabelecida e não foi financiado no #{CatarseSettings[:company_name]}.
+| Unfortunately the project  #{link_to(contribution.project.name, project_by_slug_url(permalink: contribution.project.permalink))} that you supported did not achieve the target set and has not been financed in #{CatarseSettings[:company_name]}.
 br
 br
-| Em até 5 dias úteis faremos o reembolso do valor do seu apoio, que <strong>virá como crédito na próxima ou 
-| subsequente fatura do seu cartão</strong>. Assim que o reembolso for feito, você receberá um e-mail de confirmação da operação.
+| Within 5 working days we will refund the value of your support that <strong> to your current or
+| subsequent invoice of your card </strong>. Once the refund is made, you will receive an email confirming the operation.
 br
 br
-p Valor do reembolso: #{number_to_currency details.value}
+p Refund of: #{number_to_currency details.value}
 
-p Data do pedido reembolso: #{details.pending_refund_at.try(:to_date)}
+p Refund request date: #{details.pending_refund_at.try(:to_date)}
 
-p Identificação na fatura do cartão de crédito: “Estorno do Catarse”
+p ID on the credit card statement: "Reversal of Startio"
 
-| Se ficou com alguma dúvida, entre em contato conosco respondendo a esta mensagem ou através do e-mail #{mail_to CatarseSettings[:email_contact]} 
-| e nos informe a chave de identificação do seu apoio, que é: #{details.gateway_id}
+| If you got any questions, please contact us by replying to this message or by e-mail #{mail_to CatarseSettings[:email_contact]}
+| and inform us your contribution key: #{details.gateway_id}
 br
 br
-|Um abraço,
+|Regards,
 br
 | #{CatarseSettings[:company_name]}
