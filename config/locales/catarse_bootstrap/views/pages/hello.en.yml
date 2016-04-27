@@ -1,0 +1,54 @@
+en:
+  pages:
+    hello:
+      page-title: "Discover more"
+      hero:
+        title: "Make your projects happen!"
+        people_html: "People that have supported at least 1 project on Startio"
+        projects_html: "Projects already financed on Startio"
+        money_html: "Pledged to projects published here"
+        success: "Projects already financed on Startio"
+        money: "Pledged to projects published here"
+      idea:
+        title: "Everything starts with a project!"
+        subtitle: "But a project is not enough! You must have access to people and resources necessary for it to come true."
+      fund:
+        title: "Crowdfunding"
+        subtitle: "Startio makes that possible. Project owner's can connect to supporters that are interested in helping with small donations."
+      campaign:
+        title: "Fundraising campaigns"
+        subtitle: "Project owners have up to 60 days to reach the financial goal that determines if the project will happen. In exchange for the help, they offer small rewards."
+      allornothing:
+        title: "All in!"
+        subtitle: "The objective is to reach the goal before the deadline to receive the total contribution value, or the supporters receive their money back. The secret is planning the campaing well!"
+      success:
+        title: "The project starts"
+        subtitle: "Supporters want to see the project happening. With a succesful campaign, project owners can complete the project and deliver the rewards to supporters!"
+      cta:
+        title: "Discover Startio in practice"
+        backer-cta: "Become a supporter, help people and get exclusive rewards!"
+        backer-link: "Support a project"
+        maker-cta: "Create a project, show your idea to the World and get money"
+        maker-link: "Create a project"
+      testimonial:
+        humberto:
+          text_html: "&#8220; It is a fascinating opportunity to be invited to share a person's dream and still receive a reward in return &#8221;"
+          name: "Humberto Figueira"
+          credentials: "supported more than 150 projects on Startio"
+      details:
+        fund:
+          title: "Collective Financing or Crowdfunding?"
+          text: "Two names for the same practice in which people contribute small amounts to make projects happen."
+        allornothing:
+          title: "Why all or nothing?"
+          text_html: 'We believe in the model "all or nothing" because campaigns are better funded and because it is one way we can ensure that a project will only happen if it can be delivered as described and promised to supporters.'
+        services:
+          title: "Our services"
+          text: "Startio provides support to users and makes possible for projects to capture resources in a fast and direct way using the internet. Anyone above 18 years (or less, but with a legal representative) can use our services and make a crowdfunding campaign, as long as the project is in accordance with our selection criteria."
+        fees:
+          title: "How do you profit?"
+          text: "We charge 13% of the total value of projects that have reached or exceeded the target goal. We get about 9% and 4% is passed on to Pagar.me, the payment method used in Startio. Projects that do not meet the target have no cost and all supporters receive the money back."
+        work:
+          title: "We work with purpose and love."
+          text: "Startio is independent, without investors, open source and built with love. Our passion is to build an environment where more and more projects to come to life. Today we are a team of 23 people eager to help distribute more resources to projects throughout the World."
+      staff: "These are some of us waiting for you to take a part of the project ..."

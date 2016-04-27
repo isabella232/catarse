@@ -264,7 +264,7 @@ en:
           juridical:  ' Legal '
           natural:  ' Physics '
           name:  ' Full name of holder: '
-          document:  ' CPF account holder: '
+          document:  ' SIN account holder: '
           bank:
             name:  ' Bank: '
             agency:  ' agency: '
@@ -273,8 +273,8 @@ en:
           neighborhood:  ' Neighbourhood: '
           city:  ' City: '
           state:  ' State: '
-          Zip_Code:  ' CEP: '
-        accept:
+          Zip_Code:  ' Zip Code: '
+        acZip Codet:
           title:  ' Are you sure? '
           info:  " Any wrong information at that time can delay the transfer of funds! "
           CTA:  ' Confirm '

@@ -1,0 +1,26 @@
+en:
+  rewards:
+    form:
+      edit: "Edit Reward"
+      reward: Reward
+      info_box: "You can limit the amount of rewards available. Once the limit is reached, the Reward is marked as exhausted. The delivery forecast is the date you intend to deliver the reward to supporters. If you want to change the order of rewards, simply drag them here. Try it!"
+      minimum_value: "Minimum Value"
+      deliver_at: "Expected delivery date:"
+      description: "Description:"
+      limit_reward: "Limit Reward"
+      available: "Available"
+      submit: "Save"
+    index:
+      select_reward: "Select this Reward"
+      display_remaining: "%{remaining} of %{maximum} available"
+      dont_want: "I don't want a reward"
+      or_more: "or more"
+      limited: Limited
+      sold_out: Sold Out
+      contributions_to_confirm:
+        one: 1 contribution awaiting confimation.
+        other: "%{count} contributions awaiting confimation"
+      edit_reward: Edit Reward
+      new_reward: New Reward
+      reward_deliver_time: "<b>Expected delivery date:</b> %{estimate}"
+      reward_title: For %{minimum} or more
