@@ -10,14 +10,14 @@
             - if disable_edit
               .card.u-radius.card-message.u-marginbottom-20
                 .fontsize-small
-                  = t('.account_edit_disabled_html', link: (link_to 'entrar em contato conosco'," #{CatarseSettings[:zendesk_url]}/account/dropboxes/#{CatarseSettings[:zendesk_dropbox_id]}", class: 'alt-link zendesk_widget' ))
+                  = t('.account_edit_disabled_html', link: (link_to 'Contact us'," #{CatarseSettings[:zendesk_url]}/account/dropboxes/#{CatarseSettings[:zendesk_dropbox_id]}", class: 'alt-link zendesk_widget' ))
             .w-form.card.card-terciary.w-row
               #email-form
                 .fontsize-base.fontweight-semibold= t('.title') 
                 .fontsize-small.u-marginbottom-20= t('.user_data_subtitle_html') 
                 .w-row
                   .w-col.w-col-6.w-sub-col
-                    = form.input_field :entity_type, as: :select, collection: ['Pessoa Física', 'Pessoa Jurídica'], class: 'w-select positive account_type', include_blank: false
+                    = form.input_field :entity_type, as: :select, collection: ['Person', 'Corporation'], class: 'w-select positive account_type', include_blank: false
                   .w-col.w-col-6
                 .divider.u-marginbottom-20
                 .w-row
@@ -25,24 +25,23 @@
                     = form.hidden_field :project_id, value: @project.id
                     = form.input :owner_name, as: :string, input_html: { class: 'positive', data: {natural: t('.natural'), juridical: t('.juridical') } }
                   .w-col.w-col-6
-                    = form.input :email, as: :string, 
+                    = form.input :email, as: :string,
                     input_html: { class: 'positive' }
                 .w-row
                   .w-col.w-col-6.w-sub-col
-                    = form.input :owner_document, as: :tel, 
+                    = form.input :owner_document, as: :tel,
                       input_html: { class: 'positive user-document', data: { :'validate-cpf-cnpj' => true, natural: t('.owner_document_natural'), juridical: t('.owner_document_juridical')}}
                   .w-col.w-col-6
-                    = form.input :state_inscription, as: :string, 
                     input_html: { class: 'positive' }
                 .w-row
                   = render 'shared/bank_select', bform: form, resource: @project
                   .w-col.w-col-6
                     .w-row
                       .w-col.w-col-6.w-col-small-6.w-col-tiny-6.w-sub-col-middle
-                        = form.input :agency, as: :string, 
+                        = form.input :agency, as: :string,
                         input_html: { class: 'positive' }
                       .w-col.w-col-6.w-col-small-6.w-col-tiny-6.w-sub-col-middle
-                        = form.input :agency_digit, as: :string, 
+                        = form.input :agency_digit, as: :string,
                         input_html: { class: 'positive' }
                 .w-row.u-marginbottom-20
                   .w-col.w-col-6.w-sub-col
@@ -55,7 +54,7 @@
                       .w-col.w-col-6.w-col-small-6.w-col-tiny-6.w-sub-col-middle
                         = form.input :account_digit, as: :string, 
                         input_html: { class: 'positive' }
-                .fontsize-base.fontweight-semibold Endereço
+                .fontsize-base.fontweight-semibold Address
                 .divider.u-marginbottom-20
                 .w-row
                   .w-col.w-col-6.w-sub-col

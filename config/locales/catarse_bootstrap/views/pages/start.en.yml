@@ -181,30 +181,30 @@ en:
       testimonials:
         1:
           thumb: '/assets/start/thumb-marcela.jpg'
-          content: 'Estou sequenciando o genoma do mexilhão dourado. Financiei coletivamente minha pesquisa de doutorado. Esse modelo poderia mudar o mundo.'
+          content: 'I'm sequencing the genome of the golden mussel. I crowdfunded funded my PhD research. This model could change the world.'
           name: 'Marcela Uliano'
-          totals: 'Arrecadou $40.736 com a ajuda de 344 pessoas para viabilizar o projeto Genoma do Mexilhão Dourado.'
+          totals: 'Raised $40,736 with the help of 344 people to enable the Golden Mussel Genome project.'
         2:
           thumb: '/assets/start/thumb-tiago.jpg'
-          content: 'Tá afim de fazer? Mete a cara. Sim, a lei de incentivo só beneficia quem tem nome. E aí, você vai ficar parado? Pare de reclamar e vá buscar uma alternativa.'
+          content: 'Do you want to do something? Do it! The universe benefits only those who have a name. Are you going to stand still? Stop complaining and go look for an alternative.'
           name: 'Tiago Vieira'
-          totals: 'Arrecadou $34.260 com a ajuda de 203 pessoas para viabilizar o projeto "Quando parei de me preocupar com Canalhas". O filme foi parar em Cannes. ;)'
+          totals: 'Raised $ 34,260 with the help of 203 people to make the project "When I stopped worrying about Scoundrels." The film ended up in Cannes. ;)'
         3:
           thumb: '/assets/start/thumb-natalia.png'
-          content: 'Um bom repórter sabe como é difícil conseguir dinheiro para financiar a reportagem dos seus sonhos e ainda ter independência editorial para de fato escrever o que descobriu.'
+          content: 'A good reporter knows how difficult it is to get money to finance the reporting of your dreams and still have editorial independence to actually write what he found.'
           name: 'Natalia Viana'
-          totals: 'Arrecadou $129.159 ao receber 1771 apoios para realizar 2 projetos da Agência Pública de Jornalismo Investigativo'
+          totals: 'Raised $ 129,159 with the help of 1771 people to support two projects for the Public Agency of Investigative Journalism'
         4:
           thumb: '/assets/start/thumb-apanhador.jpg'
-          content: 'A gente tem outras possibilidades para financiar, mas escolhe o crowdfunding por acreditar nesse caminho mesmo. Quanto mais o público estiver com as decisões na mão, melhor.'
+          content: 'We have other possibilities to finance, but chooses to believe on  crowdfunding. The more the public is making the decisions, the better.'
           name: 'Alexandre Kumpinski (Apanhador Só)'
-          totals: 'Arrecadou $163.600 ao receber 2181 apoios para realizar 2 projetos'
+          totals: 'Raised $163.600 with the help of 2181 people to support two projects'
         5:
           thumb: '/assets/start/thumb-larissa.png'
-          content: 'Sei que têm mais 200 pessoas ali comigo, enviando energia positiva, torcendo, fazendo parte disso tudo e caminhando até as Olimpíadas comigo.'
+          content: 'I know they have 200 more people there with me, sending positive energy, twisting, being part of it and making our way to the Olympics together.'
           name: 'Larissa Juk'
-          totals: 'Arrecadou $28.532 ao receber 218 apoios para o projeto Larissa Juk rumo a Olimpíada Rio 2016'
-      qa_title: 'Ainda com dúvidas?'
+          totals: 'Raised $28.532 with the help of 218 people that support her in her Rio 2016 Olympics dream'
+      qa_title: 'Still unsure?'
       qa:
         col_1:
           1:

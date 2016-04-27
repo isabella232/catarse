@@ -31,7 +31,7 @@ class User < ActiveRecord::Base
   validates_uniqueness_of :email, allow_blank: true, if: :email_changed?, message: I18n.t('activerecord.errors.models.user.attributes.email.taken')
   validates_uniqueness_of :permalink, allow_nil: true
   validates :permalink,  exclusion: { in: %w(api cdn secure suporte),
-    message: "Endereço já está em uso." }
+    message: "This address is alread in use" }
   validates_format_of :email, with: Devise.email_regexp, allow_blank: true, if: :email_changed?
 
   validates_presence_of :password, if: :password_required?
