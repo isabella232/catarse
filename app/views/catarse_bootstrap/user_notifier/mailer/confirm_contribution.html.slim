@@ -2,12 +2,12 @@
 - total_contributors = contribution.project.total_contributors
 - first_contribution = (total_contributors == 1)
 
-p Olá, <strong>#{contribution.user.display_name}</strong>!
+p Hi, <strong>#{contribution.user.display_name}</strong>!
 p
-  | Seu apoio para o projeto #{link_to(contribution.project.name, project_by_slug_url(permalink: contribution.project.permalink))} foi confirmado com sucesso. 
+  | Your pledge for project #{link_to(contribution.project.name, project_by_slug_url(permalink: contribution.project.permalink))} was succesful.
   - if first_contribution
-    | Parabéns! Você é o primeiro a contribuir para tornar esse projeto uma realidade!
+    | Congratulations! You are the first one to contribute!
   - else
-    | Até o momento você e outras #{(total_contributors- 1)} pessoas estão tornando esse projeto uma realidade.
-p Esse e-mail serve como um <strong>recibo provisório da sua contribuição</strong>.
+    | So far you and #{(total_contributors- 1)} people contributed to this project.
+p This email serves as a <strong> temporary receipt for your contribution/strong>.
 = render partial: 'contribution_data', locals: {contribution: contribution}

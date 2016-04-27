@@ -1,4 +1,4 @@
-en: 
+en:
   not_found:
     title: "Sorry, we couldn't find this address :("
     text: "You may have mistyped the address or the page may have moved."
@@ -14,10 +14,10 @@ en:
       confirmed_contributions: 'Confirmed contributions'
       created_projects: 'Created projects'
   site:
-    description: Startio is the first and the largest crowdfunding platform in Brazil. Come make your dream project reality!
+    description: Startio is the first and the largest crowdfunding platform. Come make your dream project reality!
     keywords: crowdfunding, collective founding, project, catarse, community, open source
     meta_title: "%{title} · %{company_name}"
-    title: Crowdfunding e financiamento coletivo no Brasil é no Startio
+    title: Crowdfunding means Startio!
     # TODO: Change these if you're building a new site!
   login:
     forgot_password:
@@ -360,8 +360,8 @@ en:
       success: "Your project has been saved."
     start:
       email_subject: "Your project has been received by Startio's team"
-      email_text: "Thanks for trusting your project to Startio :)<br><br>We're going to take a look at your project as quickly as we can, but we're a small team, so please give us up to 4 days to respond. We may get back to you sooner though, so pay attention to your inbox!<br><br>In the meantime, you should try to get to know the projects that are online (<a href='%{explore_link}' style='color: #E75297 !important;'>%{explore_link}</a>) and - if you like any of them - contribute! This is a great way to show support for the crowdfunding culture in Brazil and to feed the ecosystem that keeps growing around Startio.<br><br>You may get some inspiration for your own project...<br><br>Stay tuned for updates in <a href='%{facebook}' style='color: #E75297 !important;'>Facebook</a> and get some deeper knowledge about Startio by reading our <a href='%{blog}' style='color: #E75297 !important;'>blog</a>.<br><br>If you have any questions, send an email to: %{email}"
-      # TODO: Change this (from Brazil to whatever country you're in)
+      email_text: "Thanks for trusting your project to Startio :)<br><br>We're going to take a look at your project as quickly as we can, but we're a small team, so please give us up to 4 days to respond. We may get back to you sooner though, so pay attention to your inbox!<br><br>In the meantime, you should try to get to know the projects that are online (<a href='%{explore_link}' style='color: #E75297 !important;'>%{explore_link}</a>) and - if you like any of them - contribute! This is a great way to show support for the crowdfunding culture in USA and to feed the ecosystem that keeps growing around Startio.<br><br>You may get some inspiration for your own project...<br><br>Stay tuned for updates in <a href='%{facebook}' style='color: #E75297 !important;'>Facebook</a> and get some deeper knowledge about Startio by reading our <a href='%{blog}' style='color: #E75297 !important;'>blog</a>.<br><br>If you have any questions, send an email to: %{email}"
+      # TODO: Change this (from USA to whatever country you're in)
       notification_text: "Your project has been received by the Startio team"
     finish:
       successful:
@@ -463,10 +463,10 @@ en:
         submit: "Review and proceed to checkout"
         title: "Contribution %{name}"
       edit:
-        brazil_address_title: 'Fill in your Brazilian billing address'
+        USA_address_title: 'Fill in your billing address'
         # TODO: Confirm this translation?
-        live_in_brazil: "If you live in Brazil, please check this box"
-        # TODO: Will want to alter this on the front-end if you're running a project outside of Brazil.
+        live_in_USA: "If you live in USA, please check this box"
+        # TODO: Will want to alter this on the front-end if you're running a project outside of USA.
         credits_notice_html: "This contribution will be paid with your credits. After the confirmation, you will have <strong>%{credits}</strong> in credits to contribute other projects."
         error: "Oops. There was an error while registering your contribution. Please try again."
         international:
@@ -485,7 +485,7 @@ en:
         choose_payment: "How do you want to pay?"
         choose_payment_subtitle: "Select below a payment method"
         choose_credit_card: "PayPal"
-        choose_boleto: "Payments from Brazil"
+        choose_boleto: "Payments from USA"
         you_are_about_html: "You're about to become part of the group that makes %{link} happen."
         pay_with: "Pay With"
     create:
@@ -764,7 +764,7 @@ en:
       title_three: "Apprentice of Making it happen"
       text_three: "Color and contrast enthusiast, poet and artist by nature, curious about culture, curator by accident."
       name_four: "Renato Garcia"
-      title_four: "Startio’s Silvio Santos (a Brazilian host and entrepreneur)"
+      title_four: "Startio’s Silvio Santos (a USAian host and entrepreneur)"
       text_four: "Collectivist. Believes in collaboration one by one, with no authority, for a fairer world. Football and skateboarding fanatic. All this accompanied by a good samba or nacinal rap soundtrack."
       name_five: "Rodrigo Maia"
       title_five: "Information Remixer"

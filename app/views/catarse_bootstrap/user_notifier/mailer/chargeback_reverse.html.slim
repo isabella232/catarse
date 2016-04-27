@@ -1,28 +1,28 @@
 - payment = @notification.payment
 - contribution = payment.contribution
 - user = contribution.user
-p 
-  | Olá, Financeiro!
 p
-  | Chargeback do apoio #{payment.gateway_id} foi cancelado. 
+  | Hello, Supporter!
 p
-  | Informamos que, caso o projeto ainda esteja on-line, será considerado na listagem de apoios do projeto. Caso o projeto já tenha sido finalizado, informe ao realizador do projeto para repasse adicional.)
+  | Chargeback support #{payment.gateway_id} was cancelled.
 p
-  | Aqui temos mais detalhes desse apoio:
+  | Please be advised that if the project is still on-line, will be considered in the project support listing. If the project has already been completed, inform the project director for further transfer.)
+p
+  | Here are more details of this support:
   br/
-  | Nome do apoiador: #{contribution.payer_name}
+  | supporter Name: #{contribution.payer_name}
   br/
-  | ID Pagarme: #{payment.gateway_id}
+  | Pagarme ID: #{payment.gateway_id}
   br/
   | TID Stone: #{payment.gateway_data['acquirer_tid']}
   br/
-  | Valor do apoio: #{number_to_currency contribution.localized.value}
+  | Contribution Value: #{number_to_currency contribution.localized.value}
   br/
-  | Email do apoiador: #{contribution.payer_email}
+  | Contributor's Email: #{contribution.payer_email}
   br/
-  | Data da mudança para status PAID: #{l(contribution.paid_at.to_date)}
+  | Date the contribution status was set as PAID: #{l(contribution.paid_at.to_date)}
 
 p
-  | Abraços,
+  | Regards,
   br/
-  | Catarse
+  | Startio
