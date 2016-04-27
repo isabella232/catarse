@@ -172,7 +172,7 @@ en:
           label: 'Campaign Blog'
           src: '/assets/start-blog-ui.gif'
         4:
-          label: 'Installments support''
+          label: 'Installments support'
           src: '/assets/start-apoio.gif'
         5:
           label: 'Facilitated transfer'
