@@ -31,10 +31,10 @@ en:
         feature_3: 'Campaign blog'
         feature_4: 'Installments support'
         feature_5: 'Facilitated transfers'
-      /video:
-        /title: 'A Crowdfunding campaign is a lot of fun!'
-        /subtitle: 'You can see it here if you like it...'
-        /src: 'z7FBAjkcLG8'
+      video:
+        title: 'A Crowdfunding campaign is a lot of fun!'
+        subtitle: 'You can see it here if you like it...'
+        src: 'z7FBAjkcLG8'
       categories:
         title: 'Startio has support for different kinds of projects! Discover our categories!'
         pledged: 'Pledged $ {{pledged}} with {{contributors}} project supporters '
