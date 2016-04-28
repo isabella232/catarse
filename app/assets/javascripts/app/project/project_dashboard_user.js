@@ -36,6 +36,13 @@ App.addChild('DashboardUserSettings', {
       this.$(".user-document").prop('maxlength', 14);
       this.$(".user-document").fixedMask('99.999.999/9999-99');
     }
+    else {      
+      label_text = this.$("#project_account_attributes_owner_name").data('natural');
+      document_label_text = this.$("#project_account_attributes_owner_document").data('natural');
+      this.$inscription.hide();
+      this.$(".user-document").prop('maxlength', 11);
+      this.$(".user-document").fixedMask('999.999.999-99');
+    }
 
     this.$(".project_account_owner_name > label:first-child").html(label_text);
     this.$(".project_account_owner_document > label:first-child").html(document_label_text);

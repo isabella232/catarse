@@ -9,18 +9,18 @@
       = link_to t('bank_accounts.edit.search_bank_btn_html'), 'javascript:void(0);', class: 'w-hidden-main w-hidden-medium alt-link fontsize-smaller', id: 'show_bank_list'
 .w-row.w-hidden#bank_search_list
   .w-col.w-col-12
-    .select-bank-list data-ix="height-0-on-load" style=("height: 395px;") 
+    .select-bank-list data-ix="height-0-on-load" style=("height: 395px;")
       .card.card-terciary
         .fontsize-small.fontweight-semibold.u-marginbottom-10.u-text-center Selecione o seu banco abaixo
         .fontsize-smaller
           .w-row.card.card-secondary.fontweight-semibold
             .w-col.w-col-3.w-col-small-3.w-col-tiny-3
-              div Número
+              div Number
             .w-col.w-col-9.w-col-small-9.w-col-tiny-9
-              div Nome
+              div Name
           - Bank.order_popular.each do |bank|
             .w-row.card.fontsize-smallest
               .w-col.w-col-3.w-col-small-3.w-col-tiny-3
                 = link_to bank.code, 'javascript:void(0)', class: 'link-hidden bank-resource-link', data: { id: bank.id, code: bank.code }
               .w-col.w-col-9.w-col-small-9.w-col-tiny-9
-                = link_to bank.to_s, 'javascript:void(0)', class: 'link-hidden bank-resource-link', data: { id: bank.id, code: bank.code }  
+                = link_to bank.to_s, 'javascript:void(0)', class: 'link-hidden bank-resource-link', data: { id: bank.id, code: bank.code }

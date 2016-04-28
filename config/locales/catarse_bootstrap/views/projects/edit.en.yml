@@ -29,7 +29,7 @@ en:
       basics_subtitle:  ' The data reported in this section can not be modified when the project is in the air. Fill carefully and review before launching the project. '
       goal: Goal
       goal_subtitle:  ' Fill with affection the section below, because this information can not be changed if the project is in the air. '
-      reports:  ' support Reports '
+      reports:  ' Reports '
       user_settings:  ' registration and bank details '
       user_settings_subtitle:  ' With the form below complete your project will be ready to air. After completing the filling, click Save. Review. If everything is ok, just press the Publish and start your campaign button! '
       user_about:  " Tell me more about you! "
@@ -123,7 +123,7 @@ en:
     dashboard_nav:
       leave_link_html:  " &nbsp; Control Panel Exit "
       start_tab:  ' My Campaign '
-      reports_tab:  ' support Reports '
+      reports_tab:  ' Reports '
       preview_tab:  Preview
       posts_tab:  ' News '
       edit_project:  ' Edit Project '
