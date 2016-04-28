@@ -23,7 +23,7 @@
           .fontsize-base.fontweight-semibold Address
           .fontsize-small.u-marginbottom-20 This is the address that was entered when you last gave a contribution. If you changed your address, you can change it here. If you are awaiting a reward, inform the project owner about your new email.
           .w-row
-            = form.association :country, as: :select, label_html:{class: 'field-label fontweight-semibold'}, wrapper_html: {class: 'w-col w-col-6 w-sub-col'}, input_html: {class: 'w-select positive'}, label: 'País'
+            = form.association :country, as: :select, label_html:{class: 'field-label fontweight-semibold'}, wrapper_html: {class: 'w-col w-col-6 w-sub-col'}, input_html: {class: 'w-select positive'}, label: 'Country'
             .w-col.w-col-6
           .w-row
             = form.input :address_street, as: :string, label_html:{class: 'field-label fontweight-semibold'}, wrapper_html: {class: 'w-col w-col-6 w-sub-col'}, input_html: {class: 'w-input text-field positive', data: {required_in_brazil: true}}, validation_text: true
