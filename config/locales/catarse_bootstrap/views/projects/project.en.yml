@@ -23,7 +23,7 @@ en:
           image: 'https://s3.amazonaws.com/cdn.catarse/assets/banner-home-oncologia.jpg'
         4:
           title: 'The Few and Damned'
-          subtitle: 'The new episode of Auburn\'s sage continues on Startio.'
+          subtitle: "The new episode of Auburn's sage continues on Startio."
           link: '/en/the_new_q_s_c203'
           cta: 'About this Project'
           image: 'https://s3.amazonaws.com/cdn.catarse/assets/banner-home-pouco.jpg'
