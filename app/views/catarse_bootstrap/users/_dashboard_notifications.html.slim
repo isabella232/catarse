@@ -9,17 +9,17 @@
                 .w-col.w-col-8
                   .w-checkbox.w-clearfix
                       = f.check_box :newsletter, class: 'w-checkbox-input'
-                      label.w-form-label.fontsize-base.fontweight-semibold for="checkbox"  Newsletter do Catarse (semanal)
-                      div Projetos em destaque e posts do nosso Blog&nbsp;
+                      label.w-form-label.fontsize-base.fontweight-semibold for="checkbox"  Startio weekly Newsletter
+                      div Features projects and posts in our Blog&nbsp;
               .w-row.u-marginbottom-20
                 .w-col.w-col-4
-                  .fontweight-semibold.fontsize-small.u-marginbottom-10 Projetos que você apoiou:
+                  .fontweight-semibold.fontsize-small.u-marginbottom-10 Projects you supported:
                 .w-col.w-col-8
                   .w-checkbox.w-clearfix
                     = f.check_box :subscribed_to_project_posts, class: 'w-checkbox-input'
-                    label.w-form-label.fontsize-base.fontweight-semibold  Quero receber atualizações dos projetos
+                    label.w-form-label.fontsize-base.fontweight-semibold  I want to receive news about this projects
                     .u-marginbottom-20
-                      a.alt-link#toggle-notifications href="#"  Gerenciar as notificações de #{@user.contributed_projects.count} projetos
+                      a.alt-link#toggle-notifications href="#"  Manage notification for #{@user.contributed_projects.count} projects
                     - if @unsubscribes
                       ul.w-list-unstyled.u-radius.card.card-secondary.w-hidden#notifications-box
                         = f.simple_fields_for :unsubscribes, @unsubscribes do |u|
@@ -41,7 +41,7 @@
                       label.w-form-label.fontsize-small= category_follower.category.name_en
               .w-row.u-marginbottom-20
                 .w-col.w-col-4
-                  .fontweight-semibold.fontsize-small.u-marginbottom-10 Lembretes de projetos:
+                  .fontweight-semibold.fontsize-small.u-marginbottom-10 Project reminders:
                 .w-col.w-col-8
                   - @user.reminders.without_notification.each do |reminder|
                     - project = reminder.project
@@ -53,4 +53,4 @@
         .w-container
           .w-row
             .w-col.w-col-4.w-col-push-4
-              = f.submit 'Salvar',  id: 'save', class:'btn btn-large'
+              = f.submit 'Save',  id: 'save', class:'btn btn-large'

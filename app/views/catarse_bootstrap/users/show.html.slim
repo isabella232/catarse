@@ -43,15 +43,15 @@ nav.project-nav.u-text-center.u-marginbottom-30.profile style='z-index: 10; posi
     - if policy(resource).update?
       = link_to edit_user_path(resource), class: 'dashboard-nav-link dashboard' do
         span.fa.fa-cog
-        | &nbsp; Editar perfil
+        | &nbsp; Edit profile
     = link_to '#contributed', id: 'contributed_link', class: 'dashboard-nav-link' , data: {target: '#contributed-tab'} do
-      | Apoiados &nbsp;
+      | Supported &nbsp;
       span.badge= projects_to_show.count
     = link_to '#created', id: 'created_link', class: 'dashboard-nav-link' , data: {target: '#created-tab'} do
-      | Criados &nbsp;
+      | Created &nbsp;
       span.badge= resource.created_projects.count
     = link_to '#about', id: 'about_link', class: 'dashboard-nav-link' , data: {target: '#about-tab'} do
-      | Sobre
+      | About
 
 
 section.section
@@ -62,7 +62,7 @@ section.section
           .w-row.u-text-center
             .w-col.w-col-2
             .w-col.w-col-8
-              .fontsize-base #{resource.name} ainda não apoiou nenhum projeto.
+              .fontsize-base #{resource.name} hasn't supoprted any project.
             .w-col.w-col-2
         - else
           == render_projects projects_to_show.most_recent_first, 'profile_contributed_projects', { wrapper_class: 'w-col w-col-4 u-marginbottom-30' }
@@ -72,7 +72,7 @@ section.section
           .w-row.u-text-center
             .w-col.w-col-2
             .w-col.w-col-8
-              .fontsize-base #{resource.name} ainda não criou nenhum projeto.
+              .fontsize-base #{resource.name} hasn't create any project.
             .w-col.w-col-2
         - else
           == render_projects resource.created_projects.order_status.most_recent_first, 'profile_created_projects', { wrapper_class: 'w-col w-col-4 u-marginbottom-30' }
