@@ -16,13 +16,13 @@ en:
         money: 'Were invested in project ideas publied on Startio'
       banner:
         1: 'Contributors'
-        2: 'Your friends, famlily and people interested in the project'
+        2: 'Your friends, family and people interested in the project'
         3: 'Rewards'
         4: 'It is what you offer back'
         5: 'Goal'
-        6: 'The ammount of money that you want to achive'
+        6: 'The amount of money that you want to achieve'
         7: 'Time'
-        8: 'It is how long you campaign will be open for support'
+        8: 'It is how long your campaign will be open for support'
       features:
         title: 'The ideal platform for your campaign'
         subtitle: 'Learn about the solutions we developed to help you finance your idea!'
@@ -32,8 +32,8 @@ en:
         feature_4: 'Installments support'
         feature_5: 'Facilitated transfers'
       video:
-        title: 'A Crowdfunding campaign is a fun!'
-        subtitle: 'See if you like it...'
+        title: 'A Crowdfunding campaign is a lot of fun!'
+        subtitle: 'You can see it here if you like it...'
         src: 'z7FBAjkcLG8'
       categories:
         title: 'Startio has support for different kinds of projects! Discover our categories!'
@@ -188,7 +188,7 @@ en:
           thumb: '/assets/start/thumb-tiago.jpg'
           content: 'Do you want to do something? Do it! The universe benefits only those who have a name. Are you going to stand still? Stop complaining and go look for an alternative.'
           name: 'Tiago Vieira'
-          totals: 'Raised $ 34,260 with the help of 203 people to make the project \"When I stopped worrying about Scoundrels.\" The film ended up in Cannes. ;)'
+          totals: 'Raised $ 34,260 with the help of 203 people to make the project "When I stopped worrying about Scoundrels." The film ended up in Cannes. ;)'
         3:
           thumb: '/assets/start/thumb-natalia.png'
           content: 'A good reporter knows how difficult it is to get money to finance the reporting of your dreams and still have editorial independence to actually write what he found.'
@@ -196,8 +196,8 @@ en:
           totals: 'Raised $ 129,159 with the help of 1771 people to support two projects for the Public Agency of Investigative Journalism'
         4:
           thumb: '/assets/start/thumb-apanhador.jpg'
-          content: 'We have other possibilities to finance, but chooses to believe on  crowdfunding. The more the public is making the decisions, the better.'
-          name: 'Alexandre Kumpinski (Apanhador Só)'
+          content: 'We have other possibilities to find funding, but chooses to believe on crowdfunding. The more democratic are the decisions, the better.'
+          name: 'Alexandre Kumpinski'
           totals: 'Raised $163.60 with the help of 2181 people to support two projects'
         5:
           thumb: '/assets/start/thumb-larissa.png'
