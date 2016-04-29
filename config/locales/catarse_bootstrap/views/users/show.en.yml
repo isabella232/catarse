@@ -14,7 +14,7 @@ en:
         bank_name:  ' Bank: '
         agency:  ' Agency '
     profile:
-      user_since:  " joined on %{date} "
+      user_since:  " Joined Startio in %{date} "
       no_project_contribution:  " No projects supported yet "
       single_project_contribution:  " I supported 1 project "
       multiple_project_contribution:  "Supported %{n_projects} projects "
