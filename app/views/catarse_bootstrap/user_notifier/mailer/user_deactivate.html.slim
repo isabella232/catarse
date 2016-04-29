@@ -1,7 +1,7 @@
 p Hello #{@notification.user.name},
 
 p
-  | Your Catarse account is now disabled. If you feel homesick, you can reactivate your account at any time, just #{link_to('click here', reactivate_user_url(@notification.user, token: @notification.user.reactivate_token))} and back to support or undertake amazing projects.
+  | Your Startio account is now disabled. If you feel homesick, you can reactivate your account at any time, just #{link_to('click here', reactivate_user_url(@notification.user, token: @notification.user.reactivate_token))} and back to support or undertake amazing projects.
 
 p
   | If you have any questions you can contact us by replying to this message or by e-mailing #{mail_to CatarseSettings[:email_contact]}

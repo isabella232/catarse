@@ -9,14 +9,14 @@
         .u-text-center.u-marginbottom-20
           = image_tag 'catarse_bootstrap/icon-catarse.jpg', class: 'u-round thumb big'
         div
-          .fontsize-largest.text-success.u-marginbottom-20.u-text-center Muuuuito obrigado!
+          .fontsize-largest.text-success.u-marginbottom-20.u-text-center Thank you very much!
           .fontsize-base.u-text-center.u-marginbottom-40
             span.fontweight-semibold
-            | Você é parte da história desse lindo espaço de viabilização de projetos que é o Catarse. O seu apoio irá nos permitir ir mais longe na missão de transformar o financiamento coletivo um hábito no Brasil. Obrigado por nos ajudar a trilhar mais um passo no caminho de tornar essa ferramenta ainda mais acessível
+            | Thank you for being part of Startio. The success of the projects on this site depends on contributions from people like you.
             span.fontweight-semibold
           .fontsize-base.u-text-center.u-marginbottom-40
             span.fontweight-semibold
-            | Você recebeu um email de confirmação da doação no seu email: 
+            | You received a donation confirmation email to your email:
             span.fontweight-semibold=resource.user.email
             span.fontweight-semibold
       .w-col.w-col-2
@@ -29,4 +29,3 @@
         == render_projects contribution.recommended_projects.limit(3), 'thankyou', { wrapper_class: 'w-col w-col-4' }
 
 = render 'shared/footer'
-

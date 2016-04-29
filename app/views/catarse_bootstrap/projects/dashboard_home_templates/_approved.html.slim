@@ -3,7 +3,7 @@
     .w-row
       .w-col.w-col-2
       .w-col.w-col-8
-        .fontsize-large.fontweight-semibold.u-marginbottom-10= t('.title', name: @project.user.display_name) 
+        .fontsize-large.fontweight-semibold.u-marginbottom-10= t('.title', name: @project.user.display_name)
         p.fontsize-base
           = t('.subtitle_html', link1: link_to( 'Conta' , '#user_settings', class: 'alt-link'), link2: (link_to 'como fazemos o repasse do dinheiro','http://suporte.catarse.me/hc/pt-br/articles/202037493-Como-ser', target: '__blank', class: 'alt-link'))
         .card.u-radius.u-marginbottom-30
@@ -18,6 +18,5 @@
     = image_tag "icon-lab.png"
     .fontsize-small
     | A tabela acima está em fase de testes.&nbsp;
-    a.alt-link.fontweight-semibold href="https://bitly.com/1KGCxtD" target="_blank"  Clique aqui e dê seu feedback.
-  .fontsize-smallest.fontcolor-secondary (Obrigado! Assim você nos ajuda a melhorar o envio de projetos no Catarse)
-
+    a.alt-link.fontweight-semibold href="https://bitly.com/1KGCxtD" target="_blank"  Click here to provide feedback.
+  .fontsize-smallest.fontcolor-secondary (Thank You! Your feedback makes Startio better!)
