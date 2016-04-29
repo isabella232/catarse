@@ -59,24 +59,24 @@ en:
         notificacao_projeto_nao_financiado: 'Notification of project not supported'
         notificacao_reminder: 'Reminder Notification 48 hours'
         profile_dashboard_created_projects: "User's public profile (contributed projects)"
-        ctrse_hello: 'Get to know more about Catarse'
+        ctrse_hello: 'Get to know more about Startio'
         credits_warning_more_group: 'Credit Notification'
-        hotsitepesquisa3anos: 'Catarse Search RFCBR'
+        hotsitepesquisa3anos: 'Startio Search RFCBR'
         ctrse_embed: 'Project Card (embed)'
         home_near_of: 'Projects close to me in the hope page'
         credits_warning_less_group: 'Credit Notification'
         notificação_resgate_botao: 'Reward Notification'
         notificação_resgate_rascunho: 'Draft Notification'
-        ctrse_newsletter: "Catarse's Newsletter"
-        ctrse_facebook: "Catarse's Facebook"
-        ctrse_patrocinado_facebook: "Catarse's Facebook"
-        ctrse_twitter: "Catarse's Twitter"
-        ctrse_instagram: "Catarse's Instagram"
-        ctrse_blog: "Catarse's Blog"
-        ctrse_youtube: "Catarse's youtube"
-        ctrse_universohq: "Universo HQ (Catarse's partner)"
-        ctrse_catraca: "Catraca Livre (Catarse's partner)"
-        ctrse_hypeness: "Hypeness (Catarse's partner)"
+        ctrse_newsletter: "Startio's Newsletter"
+        ctrse_facebook: "Startio's Facebook"
+        ctrse_patrocinado_facebook: "Startio's Facebook"
+        ctrse_twitter: "Startio's Twitter"
+        ctrse_instagram: "Startio's Instagram"
+        ctrse_blog: "Startio's Blog"
+        ctrse_youtube: "Startio's youtube"
+        ctrse_universohq: "Universo HQ (Startio's partner)"
+        ctrse_catraca: "Catraca Livre (Startio's partner)"
+        ctrse_hypeness: "Hypeness (Startio's partner)"
         others: 'Direct'
       ref_table:
         header:
@@ -97,7 +97,7 @@ en:
           approved: '<span class="fontweight-semibold">%{username} your project was approved </span> To publish your project online you need to enter some information in the tab <a class="alt-link" href="#user_settings">Account</a>. It is important to know that we charge a fee of 13% of the total amount collected, but only for successful projects. Understand <a class="alt-link" href="http://suporte.catarse.me/hc/pt-br/articles/202037493-FINANCIADO-Como-ser%C3%A1-feito-o-repasse-do-dinheiro-" target="_blank">how we transfer the money</a>.'
         flex:
           online: 'You can receive support until midnight on  %{expires_at}. Discover how Startio Flex  <a class="alt-link" href="
-http://suporte.catarse.me/hc/pt-br/articles/206507863-Catarse-flex-Principais-perguntas-e-respostas-" target="_blank"> transfers your funding </a> after you campaign reaches the goal.'
+http://suporte.catarse.me/hc/pt-br/articles/206507863-Startio-flex-Principais-perguntas-e-respostas-" target="_blank"> transfers your funding </a> after you campaign reaches the goal.'
           successful: '<span class="fontweight-semibold">%{username} celebrate, you deserve it!</span>  Your project was successful and now it is time to start working with your supporters! Pay special attention to the delivery of rewards. Did you promiss something? Deliver it! Be sure to look at the post-project section <a class="alt-link" href="/guides">Guia dos Realizadores</a> and inform yourself about <a class="alt-link" href="http://suporte.catarse.me/hc/pt-br/articles/202037493-FINANCIADO-Como-ser%C3%A1-feito-o-repasse-do-dinheiro-" target="_blank">how we transfer the money</a>.'
           failed: 'You project has failed to obtain enough support. Think of the process as a learning experience and be sure to entertain a second attempt.'
           waiting_funds: '<span class="fontweight-semibold">%{username} we are processing the last payments!</span> Your project was completed on %{expires_at} and is awaiting payments! Due to payment processing times, projects that had last minute support will wait for funding for up to 4 days in that status, starting from the project completion date. <a class="alt-link" href="http://suporte.catarse.me/hc/pt-br/articles/202037493-FINANCIADO-Como-ser%C3%A1-feito-o-repasse-do-dinheiro-" target="_blank">Learn how the transfer of money is made</a> for successful projects.'

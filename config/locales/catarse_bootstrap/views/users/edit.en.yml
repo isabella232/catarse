@@ -11,7 +11,7 @@ en:
       feeds: "Activities"
       submit: "Submit"
       contributions_fields:
-        no-project: "You have not contributed to any Catarse's project yet"
+        no-project: "You have not contributed to any Startio projects yet"
         contribute: "Contribute!"
       about_fields:
         add_link: "+ add a link"

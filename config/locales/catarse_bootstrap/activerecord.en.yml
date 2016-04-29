@@ -85,9 +85,9 @@ en:
         goal: "Goal value"
         about_html: "Project description"
         user_id: "User Id"
-        service_fee: "Catarse's fee"
+        service_fee: "Startio's fee"
         video_url: "Video's URL"
-        permalink: "Catarse's Project Link"
+        permalink: "Startio's Project Link"
         all_tags: 'Tags'
         city: 'Project Location'
         more_links: 'List some links about you project so people can get to know more!'
@@ -104,7 +104,7 @@ en:
         headline: "Headline"
         image_url: "Image's URL"
         name: "Project"
-        service_fee: "Catarse's fee"
+        service_fee: "Startio's fee"
         goal: "Amount to be collected"
         about_html: "Project Description"
         user_id: "User ID"
@@ -349,9 +349,9 @@ en:
     deliver_at: Reward develivery date
     confirmed_at: Payment confirmation dates
     contribution_value: Contribution value
-    service_fee: "Catarse's Fee"
+    service_fee: "Startio's Fee"
     user_name: "Supporter's Name"
-    user_email: "Catarse's profile email"
+    user_email: "Startio's profile email"
     cpf: "Supporter's SIN"
     payer_email: Payment Method Email
     gateway: Payment Method
