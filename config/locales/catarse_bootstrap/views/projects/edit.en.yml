@@ -90,7 +90,7 @@ en:
         good_luck:  " Good luck. "
       rejected:
         title:  "  %{name}, unfortunately it was not this time. "
-        subtitle_html:  " . You sent your project to analyze the Catarse and we understand that it is not according to the site's profile Having a declined project does not prevent you to submit new projects for review or reformulate your current project Talk to our service recommend.! you take a good look at the %{link1} and %{link2}. "
+        subtitle_html:  " . You sent your project to analyze the Startio and we understand that it is not according to the site's profile Having a declined project does not prevent you to submit new projects for review or reformulate your current project Talk to our service recommend.! you take a good look at the %{link1} and %{link2}. "
       online:
         title:  "  %{name}, your campaign is in the air! "
         subtitle_html:  " Your project is in the air and your campaign will end at% Day 23hs59min59s {date} Until this day and time you can receive support Remember, it's all-or-nothing and you just take the funds raised up.. hit the target that was set. Go to our %{link2} to other questions! "
@@ -104,7 +104,7 @@ en:
       failed:
         title:  "  %{name}, do not be discouraged! "
         subtitle_html:  " Your project does not hit the target and we know that this is not the best of feelings but do not be discouraged Face the process as a learning experience and be sure to entertain a second attempt Do not worry, all your supporters will receive the money... back. %{link}. "
-        questions:  " We also send you an email with two little questions If you have time and head, it would be great if you could take a look Your feedback helps us build a Catarse best and coolest to you... "
+        questions:  " We also send you an email with two little questions If you have time and head, it would be great if you could take a look Your feedback helps us build a Startio best and coolest to you... "
       draft:
         title:  "  %{name}, build your project! "
         subtitle:  " .. The more careful and well formatted for a project, the greater the chances of it being successful in your fundraising campaign Before sending your project to our analysis, complete all the tabs next to fondly You can save changes and return to the project draft as many times as you want. When you're ready, click the SEND button and we will contact you to assess your project. "
@@ -173,7 +173,7 @@ en:
       name_label:  " Name "
       name_hint:  " This is the name that users will see in their profile. "
       EMAIL_LABEL:  Email Registration
-      email_hint:  Email for you to log in Catarse and communicate with our team and their supporters
+      email_hint:  Email for you to log in Startio and communicate with our team and their supporters
     dashboard_goal:
       submit:  " Save "
       kind_label:  " Type of financing "
@@ -214,7 +214,7 @@ en:
       aon:
         card_label:  " Video "
         video_url:  " Project Video "
-        video_url_hint:  " Important:. Any project can be sent without the video for analysis of Catarse of care The video can be analyzed later Remember that it is only required for projects with more than 5,000 real goals.. "
+        video_url_hint:  " Important:. Any project can be sent without the video for analysis of Startio of care The video can be analyzed later Remember that it is only required for projects with more than 5,000 real goals.. "
         video_url_subtitle:  " Link Vimeo or Youtube "
       flex:
         card_label:  " Video "
@@ -235,7 +235,7 @@ en:
       online_days:  ' Deadline for collection '
       online_days_label:  ' You can choose between 1 and 60 days for his campaign. Check out the guide of directors for tips on deadlines. '
       value:  ' Amount to be raised '
-      value_secondary:  ' Plan a consistent goal with your project proposes. Review your budget and do not forget to include the rate of 13% charged by Catarse if your project is successful '
+      value_secondary:  ' Plan a consistent goal with your project proposes. Review your budget and do not forget to include the rate of 13% charged by Startio if your project is successful '
       form:
         submit:  ' Save '
     successful_onboard:

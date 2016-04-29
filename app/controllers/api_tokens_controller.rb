@@ -27,4 +27,3 @@ class ApiTokensController < ApplicationController
     }
   end
 end
-
