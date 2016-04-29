@@ -11,7 +11,7 @@ en:
         user_id: 'User ID'
         goal: 'Meta'
         total_payment_service_fee: 'Service Fee'
-        total_catarse_fee: "Catarse's Fee"
+        total_catarse_fee: "Startio's Fee"
         zero_fee: 'Feeless Support?'
         repass_value: 'Repass Value'
         expires_at: 'Expires on'
@@ -141,7 +141,7 @@ en:
         send_refund_request_contribution: 'Send refund request'
         payer_email: 'Payer email'
         payment_id: 'Id de pagamento'
-        user_email: 'Catarse user email'
+        user_email: 'Startio user email'
         push_to_trash: 'Delete contribution'
         cancel: 'Cancel contribution'
         between_values: 'Between'
