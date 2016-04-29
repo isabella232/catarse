@@ -331,6 +331,9 @@ en:
       chargeback: "ContState"
   contribution:
     payment_details:
+      visa: "Visa"
+      mastercard: "MasterCard"
+      amex: "American Express"
       desconhecido: ""
       creditos: "Credits"
       boleto_bancario: "Bank slip"
