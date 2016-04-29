@@ -14,10 +14,10 @@ en:
         bank_name:  ' Bank: '
         agency:  ' Agency '
     profile:
-      user_since:  " come together in %{date} "
-      no_project_contribution:  " Not yet supported projects "
+      user_since:  " joined on %{date} "
+      no_project_contribution:  " No projects supported yet "
       single_project_contribution:  " I supported 1 project "
-      multiple_project_contribution:  "put %{n_projects} projects "
+      multiple_project_contribution:  "Supported %{n_projects} projects "
       single_project_created:  " and has created one project "
       multiple_project_created:  " and has created %{n_projects} projects "
     contribution_row:

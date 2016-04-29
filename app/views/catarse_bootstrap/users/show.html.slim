@@ -23,7 +23,7 @@
         .fontsize-larger.fontweight-semibold.u-marginbottom-20
           = resource.decorate.display_name
         .w-hidden-small.w-hidden-tiny.u-marginbottom-40.fontsize-base
-          = t('users.profile.user_since', date: localize(resource.created_at, format: "%B de %Y"))
+          = t('users.profile.user_since', date: localize(resource.created_at, format: "%B of %Y"))
           br
           - if projects_to_show.count == 0
             = t('users.profile.no_project_contribution')
