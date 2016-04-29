@@ -8,7 +8,9 @@ html
     = stylesheet_link_tag 'catarse_bootstrap/catarse'
     = stylesheet_link_tag '//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'
     = content_for(:stylesheets)
-    = favicon_link_tag 'favicon.ico'
+    = link rel="apple-touch-icon-precomposed" type="image/jpg" href="https://startio-staging.s3.amazonaws.com/cdn/cropped-startio-s-dot-512-180x180.jpg"
+    = link rel="icon" type="image/jpg" href="https://startio-staging.s3.amazonaws.com/cdn/cropped-startio-s-dot-512-32x32.jpg" sizes="32x32"
+    = link rel="icon" type="image/jpg" href="https://startio-staging.s3.amazonaws.com/cdn/cropped-startio-s-dot-512-192x192.jpg" sizes="192x192"
     = csrf_meta_tag
     meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"
     meta#api-host name="api-host" content=CatarseSettings[:api_host]
