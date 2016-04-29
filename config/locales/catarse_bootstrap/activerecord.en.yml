@@ -133,7 +133,7 @@ en:
         full_name: "Full Name / Company Name"
         bio: 'Mini Bio'
         name: "Name"
-        newsletter: "I want to receive Catarse's newsletter"
+        newsletter: "I want to receive SmartIO's newsletter"
         password: Password
         password_confirmation: "Confirm your password"
         phone_number: "Telephone"
