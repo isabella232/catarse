@@ -10,35 +10,23 @@ en:
           cta: 'Learn More'
           image: 'https://startio-staging.s3.amazonaws.com/cdn/image_hero.png'
         2:
-          title: 'Chaguim Ledor Vador'
-          subtitle: 'Jewish stories told by children, for children.'
-          link: '/en/the_new_q_s_c203'
-          cta: 'About this Project'
-          image: 'https://s3.amazonaws.com/cdn.catarse/assets/banner-home-chaguim.jpg'
+          title: "Bagl: show your cables who's boss!"
+          subtitle: 'A simple, bagel-inspired cable hub for managing unruly cables at your desk or on the road.'
+          link: '/en/bagl_show_your_cables_who_s_boss_14d8'
+          cta: 'Learn More'
+          image: 'https://startio-staging.s3.amazonaws.com/cdn/bagl-hero.jpg'
         3:
-          title: 'Amazon Ocular Oncology Center'
-          subtitle: 'Help the only free center of eye cancer treatment in the Amazon.'
-          link: '/en/the_new_q_s_c203'
-          cta: 'About this Project'
-          image: 'https://s3.amazonaws.com/cdn.catarse/assets/banner-home-oncologia.jpg'
+          title: 'Brdi: the fold-it-yourself feeder!'
+          subtitle: 'Ships flat, folds in minutes - a fun, fold-it-yourself aluminum feeder for your feathered friends!'
+          link: '/en/brdi_the_fold_it_yourself_feeder_a649'
+          cta: 'Learn More'
+          image: 'https://startio-staging.s3.amazonaws.com/cdn/brdi-hero.jpg'
         4:
-          title: 'The Few and Damned'
-          subtitle: "The new episode of Auburn's sage continues on Startio."
-          link: '/en/the_new_q_s_c203'
-          cta: 'About this Project'
-          image: 'https://s3.amazonaws.com/cdn.catarse/assets/banner-home-pouco.jpg'
-        5:
-          title: 'I travel to Africa'
-          subtitle: 'The couple travels to document more adventures, this time in Africa.'
-          link: '/en/the_new_q_s_c203'
-          cta: 'About this Project'
-          image: 'https://s3.amazonaws.com/cdn.catarse/assets/banner-home-viajo.jpg'
-        6:
-          title: 'Isabella Taviani'
-          subtitle: 'Singer revisiting the classics of Carpenters in new CD.'
-          link: '/en/the_new_q_s_c203'
-          cta: 'About this Project'
-          image: 'https://s3.amazonaws.com/cdn.catarse/assets/banner-home-isabela.jpg'
+          title: 'Tuls: flat tools, round world!'
+          subtitle: "A family of credit card-sized tools - in Stainless Steel and Titanium!"
+          link: '/en/tuls_flat_tools_round_world_2a7e'
+          cta: 'Learn More'
+          image: 'https://startio-staging.s3.amazonaws.com/cdn/tuls-hero.jpg'
     new_feature_badge: 'Featured'
     publish:
       aon: 'All or Nothing'
