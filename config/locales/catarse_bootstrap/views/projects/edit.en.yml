@@ -19,7 +19,7 @@ en:
         video_subtitle:  ' fancies! A good video makes the difference and can be largely responsible for the success of your project. '
         reward_html:  " Create and edit your rewards here "
         reward_subtitle:  " This is your show of gratitude to the supporters Remember to include the cost of the rewards promised in your budget, DELIVERED..! "
-      posts:  " Write a novelty "
+      posts:  " Write a Blog Post "
       announce_expiration:  ' collection period '
       announce_expiration_subtitle:  ' Choose well the date, because you can not change it later. After this period, you will receive your money within 10 days. '
       budget_subtitle:  " How the money will be used The more transparency best Show steps and processes are involved in the use of these resources A list of the main items of the budget or even a pie chart will very well here?... "
@@ -198,8 +198,8 @@ en:
         header_text:  " Share the link %{link} with your friends and enjoy the time to make fine adjustments to help in your campaign. "
         publish_btn_html:  " I am pleased <br> I publish my project now! "
     dashboard_posts:
-      only_to_backers:  " I want this novelty is only visible to supporters. "
-      publish:  ' Post novelty '
+      only_to_backers:  " I want this Blog Post is only visible to supporters. "
+      publish:  ' Publish Blog Post '
       discard:  ' Dismiss '
       warning:  " All published news is sent directly to their supporters by email Review and the post before publishing.. "
       old_posts:  " old news "

@@ -19,7 +19,8 @@ CMD postgrest postgres://${POSTGREST_DBUSER}:${POSTGREST_DBPASS}@${POSTGREST_DBH
               --port 3000 \
               --schema 1 \
               --anonymous anonymous \
-              --pool 200
+              --pool 200 \
+              --jwt-secret artwagwiuef9t7325oaflgui8o7taartwagwiuef9t7325oaflgui8o7ta 
 
 EXPOSE 3000
 
