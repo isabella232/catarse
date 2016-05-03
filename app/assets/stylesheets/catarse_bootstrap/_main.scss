@@ -25,9 +25,9 @@ a:hover {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  border: 1px solid #7cc142;
+  border: 1px solid #f39331;
   border-radius: 5px;
-  background-color: #7cc142;
+  background-color: #f39331;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
   color: #fff;
@@ -36,8 +36,8 @@ a:hover {
 }
 
 .btn:hover {
-  border-color: #65bf1b;
-  background-color: #65bf1b;
+  border-color: #f38a1f;
+  background-color: #f38a1f;
   box-shadow: 1px 1px 3px 0 rgba(63, 71, 82, .38);
 }
 
@@ -592,7 +592,7 @@ a:hover {
   margin-top: 80px;
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: #3f4752;
+  background-color: #f38a1f;
 }
 
 .link-footer {
@@ -823,7 +823,7 @@ a:hover {
 
 .page-header.negative {
   border-top: 1px none rgba(0, 0, 0, .2);
-  background-color: #3f4752;
+  background-color: #f38a1f;
   color: #f1f4f4;
 }
 
@@ -5455,4 +5455,3 @@ html.w-mod-js *[data-ix="display-0-on-load"] {
     margin-top: 30px;
   }
 }
-
